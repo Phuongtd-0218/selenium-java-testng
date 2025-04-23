@@ -165,7 +165,6 @@ public class Topic_02_Selenium_Locator {
         driver.findElement(By.xpath("//input"));
         driver.findElement(By.xpath("//a"));
 
-
     }
 
     // 3- Clean: Delete data test/account/close browser/...
