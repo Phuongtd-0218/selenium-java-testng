@@ -2,15 +2,12 @@ package webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
-public class Topic_00_Selenium_Locator {
+public class Topic_02_Selenium_Locator {
 
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test
@@ -96,7 +93,7 @@ public class Topic_00_Selenium_Locator {
     public void TC_05_Partial_Link_Text() {
         //Có thể lấy hết toàn bộ text hoặc một phần (hay dùng)
         driver.findElement(By.partialLinkText("Sitemap"));
-        driver.findElement(By.partialLinkText("Electronics "));
+        driver.findElement(By.partialLinkText("Electronics"));
     }
 
     @Test
@@ -110,14 +107,63 @@ public class Topic_00_Selenium_Locator {
 
     @Test
     public void TC_07_Css() {
+        //id
+        driver.findElement(By.cssSelector("input#Company"));
+        driver.findElement(By.cssSelector("#Company"));
+        driver.findElement(By.cssSelector("input[id='Company']"));
+
+        //class
+        driver.findElement(By.cssSelector("input.search-box-text"));
+        driver.findElement(By.cssSelector("input[class='search-box-text ui-autocomplete-input']"));
+
+        //name
+        driver.findElement(By.cssSelector("input[name='Email']"));
+        driver.findElement(By.cssSelector("input[name='LastName']"));
+
+        //link-text
+        driver.findElement(By.cssSelector("a[href='/register?returnUrl=%2Fregister']"));
+        driver.findElement(By.cssSelector("a[href='/news']"));
 
 
-        //test
+        //partial-link-text
+        driver.findElement(By.cssSelector("a[href*='/register?']"));
+        driver.findElement(By.cssSelector("a[href*='/login?']"));
+
+
+        //tagname
+        driver.findElement(By.cssSelector("a"));
+        driver.findElement(By.cssSelector("input"));
+        driver.findElement(By.cssSelector("button"));
+
     }
 
     @Test
     public void TC_08_XPath() {
+        //id
+        driver.findElement(By.xpath("//input[@id='small-searchterms']"));
+        driver.findElement(By.xpath("//input[@id='ConfirmPassword']"));
+        driver.findElement(By.xpath("//input[contains(@id,'Confirm')]"));
 
+        //class
+        driver.findElement(By.xpath("//input[@class='newsletter-subscribe-text']"));
+        driver.findElement(By.xpath("//input[contains(@class,'newsletter')]"));
+
+        //name
+        driver.findElement(By.xpath("//button[@name='register-button']"));
+        driver.findElement(By.xpath("//input[contains(@name,'Password')]"));
+
+        //link-text
+        driver.findElement(By.xpath("//a[text()='Apply for vendor account']"));
+        driver.findElement(By.xpath("//a[text()='Compare products list']"));
+
+
+        //partial-link-text
+        driver.findElement(By.xpath("//a[contains(text(),'Compare')]"));
+        driver.findElement(By.xpath("//a[contains(text(),'About')]"));
+
+        //tagname
+        driver.findElement(By.xpath("//input"));
+        driver.findElement(By.xpath("//a"));
 
 
     }
