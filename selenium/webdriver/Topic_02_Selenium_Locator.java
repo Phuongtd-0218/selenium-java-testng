@@ -2,7 +2,9 @@ package webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.locators.RelativeLocator;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -166,6 +168,39 @@ public class Topic_02_Selenium_Locator {
         driver.findElement(By.xpath("//a"));
 
     }
+    @Test
+    public void Topic_09_Relative_Locator(){
+
+        // 1- Khi không thể định danh được element của chính nó (dựa vào những vị trí cạnh đó)
+        // 2- Sử dụng khi test GUI (giao diện - position khớp với Design)
+
+
+        driver.get("https://demo.nopcommerce.com/login");
+        //Element By A
+        By passwordTextboxBy = By.cssSelector("input#Password");
+        WebElement passwordTextbox = driver.findElement(By.cssSelector("input#Password"));
+
+        //Element By B
+        By rememberMeCheckboxBy = By.id("RememberMe");
+
+        //Element By C
+        By forgotPasswordBy = By.cssSelector("span.forgot-password");
+
+        //Element By D
+        By loginbuttonBy    = By.cssSelector("button.login-button");
+
+        //Element E
+        WebElement rememberMeText = driver.findElement(RelativeLocator.with(By.tagName("label"))
+                .above(loginbuttonBy) //Label RememberMe nằm trên Login button
+                .below(passwordTextboxBy) //Label RememberMe nằm dưới Password textbox
+                .toRightOf(rememberMeCheckboxBy) //Label RememberMe bên phải RememberMe checkbox
+                .toLeftOf(forgotPasswordBy)); //Label RememberMe nằm bên trái Forgot Password
+    }
+
+
+
+
+
 
     // 3- Clean: Delete data test/account/close browser/...
     @AfterClass
