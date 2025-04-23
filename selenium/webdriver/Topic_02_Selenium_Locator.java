@@ -2,15 +2,12 @@ package webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
-public class Topic_00_Selenium_Locator {
+public class Topic_02_Selenium_Locator {
 
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test
