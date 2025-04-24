@@ -1,0 +1,144 @@
+Index: .idea/libraries/selenium_java.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/selenium_java.xml b/.idea/libraries/selenium_java.xml
+new file mode 100644
+--- /dev/null	(date 1745403839487)
++++ b/.idea/libraries/selenium_java.xml	(date 1745403839487)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="selenium-java">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/libraries/testng-7.8.0.jar!/" />
++      <root url="jar://$PROJECT_DIR$/libraries/selenium-java-4.18.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: selenium/webdriver/Topic_02_Selenium_Locator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package webdriver;\r\n\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.firefox.FirefoxDriver;\r\nimport org.openqa.selenium.support.locators.RelativeLocator;\r\nimport org.testng.annotations.AfterClass;\r\nimport org.testng.annotations.BeforeClass;\r\nimport org.testng.annotations.Test;\r\n\r\npublic class Topic_02_Selenium_Locator {\r\n\r\n    //JUnit - dùng cho Unit Test\r\n    //TestNG - dùng cho UI test\r\n\r\n    // Thành phần/Cấu trúc trong 1 test case\r\n\r\n    // 1- Setup: Os/Browser/Web/Page/Data/Variable/Object/...\r\n    WebDriver driver;\r\n\r\n    @BeforeClass\r\n    public void initialBrowser() {\r\n        driver = new FirefoxDriver();\r\n\r\n        //Mở màn lên đến màn login\r\n        driver.get(\"https://demo.nopcommerce.com/register\");\r\n    }\r\n\r\n    // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..\r\n    // Cần có chỉ dẫn - annotations để testcase hoạt động\r\n    @Test\r\n    public void TC_01_ID() throws InterruptedException {\r\n        driver.findElement(By.id(\"small-searchterms\")).sendKeys(\"Macbook\");\r\n        Thread.sleep(3000);\r\n\r\n        driver.findElement(By.id(\"FirstName\")).sendKeys(\"firtName\");\r\n        Thread.sleep(3000);\r\n//        // Tương tác lên Email Address textbox\r\n//            /*<input class=\"email\" autofocus=\"\" type=\"email\" data-val=\"true\" data-val-regex=\"Wrong email\"\r\n//       data-val-required=\"Please enter your email\" id=\"Email\" name=\"Email\">*/\r\n//        // HTML Source Code\r\n//        // Thẻ - thuộc tính - giá trị thuộc tính\r\n//        //Tagname - Attribute - Value\r\n//\r\n//\r\n//        //XPath: //tagname[@attribute = 'value']\r\n//        //Css: tagname[attribute = 'value']\r\n//\r\n//        // Tương tác lên Email address textbox\r\n//        // 8 loại locator để tìm kiếm Email Address\r\n//\r\n//\r\n//        // Sau dấu chấm sẽ gọi hàm\r\n//\r\n//        //Tìm 1 element\r\n//        driver.findElement(By.id(\"\"));\r\n//\r\n//        // 1- Thao tác lên luôn(dùng 1 lần)\r\n//        driver.findElement(By.id(\"\")).click();\r\n//\r\n//        // 2- Lưu dữ liệu lại(dùng nhiều lần)\r\n//        // Dùng nhiều lần thì nên khai báo\r\n//        WebElement emailTextbox = driver.findElement(By.id(\"\"));\r\n//        emailTextbox.click();\r\n//        emailTextbox.sendKeys(\"\");\r\n//        emailTextbox.getTagName();\r\n//\r\n//        //Tìm nhiều element giống nhau\r\n//\r\n//        List<WebElement> textboxes = driver.findElements(By.cssSelector(\"\"));\r\n    }\r\n\r\n    @Test\r\n    public void TC_02_Class() {\r\n        // Không lấy hết giá trị nếu có khoảng trắng\r\n        driver.findElement(By.className(\"register-next-step-button\")).click();\r\n    }\r\n\r\n    @Test\r\n    public void TC_03_Name() {\r\n        driver.findElement(By.name(\"Company\"));\r\n\r\n    }\r\n\r\n    @Test\r\n    public void TC_04_Link_Text() {\r\n        //Chỉ làm việc với element là Link\r\n        // Thẻ a và có thuộc tính href\r\n        driver.findElement(By.linkText(\"Sitemap\"));\r\n        driver.findElement(By.linkText(\"Log in\"));\r\n    }\r\n\r\n    @Test\r\n    public void TC_05_Partial_Link_Text() {\r\n        //Có thể lấy hết toàn bộ text hoặc một phần (hay dùng)\r\n        driver.findElement(By.partialLinkText(\"Sitemap\"));\r\n        driver.findElement(By.partialLinkText(\"Electronics\"));\r\n    }\r\n\r\n    @Test\r\n    public void TC_06_Tagname() {\r\n        // Tên thẻ (HTML)\r\n        // Tìm các element giống nhau (thẻ của component giống nhau)\r\n\r\n        driver.findElements(By.tagName(\"input\"));\r\n        driver.findElements(By.tagName(\"label\"));\r\n    }\r\n\r\n    @Test\r\n    public void TC_07_Css() {\r\n        //id\r\n        driver.findElement(By.cssSelector(\"input#Company\"));\r\n        driver.findElement(By.cssSelector(\"#Company\"));\r\n        driver.findElement(By.cssSelector(\"input[id='Company']\"));\r\n\r\n        //class\r\n        driver.findElement(By.cssSelector(\"input.search-box-text\"));\r\n        driver.findElement(By.cssSelector(\"input[class='search-box-text ui-autocomplete-input']\"));\r\n\r\n        //name\r\n        driver.findElement(By.cssSelector(\"input[name='Email']\"));\r\n        driver.findElement(By.cssSelector(\"input[name='LastName']\"));\r\n\r\n        //link-text\r\n        driver.findElement(By.cssSelector(\"a[href='/register?returnUrl=%2Fregister']\"));\r\n        driver.findElement(By.cssSelector(\"a[href='/news']\"));\r\n\r\n\r\n        //partial-link-text\r\n        driver.findElement(By.cssSelector(\"a[href*='/register?']\"));\r\n        driver.findElement(By.cssSelector(\"a[href*='/login?']\"));\r\n\r\n\r\n        //tagname\r\n        driver.findElement(By.cssSelector(\"a\"));\r\n        driver.findElement(By.cssSelector(\"input\"));\r\n        driver.findElement(By.cssSelector(\"button\"));\r\n\r\n    }\r\n\r\n    @Test\r\n    public void TC_08_XPath() {\r\n        //id\r\n        driver.findElement(By.xpath(\"//input[@id='small-searchterms']\"));\r\n        driver.findElement(By.xpath(\"//input[@id='ConfirmPassword']\"));\r\n        driver.findElement(By.xpath(\"//input[contains(@id,'Confirm')]\"));\r\n\r\n        //class\r\n        driver.findElement(By.xpath(\"//input[@class='newsletter-subscribe-text']\"));\r\n        driver.findElement(By.xpath(\"//input[contains(@class,'newsletter')]\"));\r\n\r\n        //name\r\n        driver.findElement(By.xpath(\"//button[@name='register-button']\"));\r\n        driver.findElement(By.xpath(\"//input[contains(@name,'Password')]\"));\r\n\r\n        //link-text\r\n        driver.findElement(By.xpath(\"//a[text()='Apply for vendor account']\"));\r\n        driver.findElement(By.xpath(\"//a[text()='Compare products list']\"));\r\n\r\n\r\n        //partial-link-text\r\n        driver.findElement(By.xpath(\"//a[contains(text(),'Compare')]\"));\r\n        driver.findElement(By.xpath(\"//a[contains(text(),'About')]\"));\r\n\r\n        //tagname\r\n        driver.findElement(By.xpath(\"//input\"));\r\n        driver.findElement(By.xpath(\"//a\"));\r\n\r\n    }\r\n    @Test\r\n    public void Topic_09_Relative_Locator(){\r\n\r\n        // 1- Khi không thể định danh được element của chính nó (dựa vào những vị trí cạnh đó)\r\n        // 2- Sử dụng khi test GUI (giao diện - position khớp với Design)\r\n\r\n\r\n        driver.get(\"https://demo.nopcommerce.com/login\");\r\n        //Element By A\r\n        By passwordTextboxBy = By.cssSelector(\"input#Password\");\r\n        WebElement passwordTextbox = driver.findElement(By.cssSelector(\"input#Password\"));\r\n\r\n        //Element By B\r\n        By rememberMeCheckboxBy = By.id(\"RememberMe\");\r\n\r\n        //Element By C\r\n        By forgotPasswordBy = By.cssSelector(\"span.forgot-password\");\r\n\r\n        //Element By D\r\n        By loginbuttonBy    = By.cssSelector(\"button.login-button\");\r\n\r\n        //Element E\r\n        WebElement rememberMeText = driver.findElement(RelativeLocator.with(By.tagName(\"label\"))\r\n                .above(loginbuttonBy) //Label RememberMe nằm trên Login button\r\n                .below(passwordTextboxBy) //Label RememberMe nằm dưới Password textbox\r\n                .toRightOf(rememberMeCheckboxBy) //Label RememberMe bên phải RememberMe checkbox\r\n                .toLeftOf(forgotPasswordBy)); //Label RememberMe nằm bên trái Forgot Password\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n\r\n    // 3- Clean: Delete data test/account/close browser/...\r\n    @AfterClass\r\n    public void cleanBrowser() {\r\n        driver.quit();\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/selenium/webdriver/Topic_02_Selenium_Locator.java b/selenium/webdriver/Topic_02_Selenium_Locator.java
+--- a/selenium/webdriver/Topic_02_Selenium_Locator.java	(revision 76ba04a2f8d4f55217b0fe64c8c0170b7f7a529d)
++++ b/selenium/webdriver/Topic_02_Selenium_Locator.java	(date 1745401047018)
+@@ -169,7 +169,7 @@
+ 
+     }
+     @Test
+-    public void Topic_09_Relative_Locator(){
++    public void Topic_09_Relative_Locator() throws InterruptedException {
+ 
+         // 1- Khi không thể định danh được element của chính nó (dựa vào những vị trí cạnh đó)
+         // 2- Sử dụng khi test GUI (giao diện - position khớp với Design)
+@@ -195,10 +195,23 @@
+                 .below(passwordTextboxBy) //Label RememberMe nằm dưới Password textbox
+                 .toRightOf(rememberMeCheckboxBy) //Label RememberMe bên phải RememberMe checkbox
+                 .toLeftOf(forgotPasswordBy)); //Label RememberMe nằm bên trái Forgot Password
++        rememberMeText.click();
++        Thread.sleep(5000);
+     }
+ 
+ 
++    //Mức độ ưu tiến lấy XPath
++    // 1- DUy nhất
++
++    // 2- Ưu tiên nếu có id/name/class thì dùng trước
++
++    // 3- Giá trị của attribute phải có nghi - liên quan đến element
++
++    // 4- Attribute non (id/name/class) duy nhất và có nghĩa
+ 
++    // 5- đường link nhưng không dùng với href, nên dùng text hoặc tittle
++
++    // 6- Hạn chế dùng * - //*[@id='']
+ 
+ 
+ 
+Index: selenium/webdriver/Topic_03_Selenium_XPath_CSS.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/selenium/webdriver/Topic_03_Selenium_XPath_CSS.java b/selenium/webdriver/Topic_03_Selenium_XPath_CSS.java
+new file mode 100644
+--- /dev/null	(date 1745406067538)
++++ b/selenium/webdriver/Topic_03_Selenium_XPath_CSS.java	(date 1745406067538)
+@@ -0,0 +1,50 @@
++package webdriver;
++
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.firefox.FirefoxDriver;
++import org.testng.annotations.AfterClass;
++import org.testng.annotations.BeforeClass;
++import org.testng.annotations.Test;
++
++import java.time.Duration;
++
++public class Topic_03_Selenium_XPath_CSS {
++
++    //JUnit - dùng cho Unit Test
++    //TestNG - dùng cho UI test
++
++    // Thành phần/Cấu trúc trong 1 test case
++
++    // 1- Setup: Os/Browser/Web/Page/Data/Variable/Object/...
++    WebDriver driver;
++
++    @BeforeClass
++    public void initialBrowser() {
++        driver = new FirefoxDriver();
++        driver.get("https://live.techpanda.org");
++        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
++    }
++
++    // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..
++    // Cần có chỉ dẫn - annotations để testcase hoạt động
++    @Test
++    public void TC_01_() {
++        driver.findElement(By.xpath("//div[@class='footer']//a[@title='My Account']")).click();
++        driver.findElement(By.xpath("//div[@class='footer']//a[@title='My Account']")).click();
++
++    }
++
++    @Test
++    public void TC_02_() {
++
++
++    }
++
++    // 3- Clean: Delete data test/account/close browser/...
++    @AfterClass
++    public void cleanBrowser() {
++        driver.quit();
++    }
++
++}
+\ No newline at end of file
+Index: selenium-java-testng.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/selenium\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"selenium-testng\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/selenium-java-testng.iml b/selenium-java-testng.iml
+--- a/selenium-java-testng.iml	(revision 76ba04a2f8d4f55217b0fe64c8c0170b7f7a529d)
++++ b/selenium-java-testng.iml	(date 1745404253155)
+@@ -8,5 +8,7 @@
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" name="selenium-testng" level="project" />
++    <orderEntry type="library" name="selenium-java" level="project" />
++    <orderEntry type="library" name="selenium-java (2)" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
