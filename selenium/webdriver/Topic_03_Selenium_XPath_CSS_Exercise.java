@@ -12,15 +12,11 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class Topic_03_Selenium_XPath_CSS_Exercise {
-
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test
-
     // Thành phần/Cấu trúc trong 1 test case
-
     // 1- Setup: Os/Browser/Web/Page/Data/Variable/Object/...
     WebDriver driver;
-
 //    WebElement validateFirstname = driver.findElement(By.id("txtFirstname-error"));
 //    WebElement validateEmail = driver.findElement(By.id("txtEmail-error"));
 //    WebElement validateCheckEmail = driver.findElement(By.id("txtCEmail-error"));
@@ -36,129 +32,136 @@ public class Topic_03_Selenium_XPath_CSS_Exercise {
 //    WebElement passwordTxt = driver.findElement(By.name("txtFirstname"));
 //    WebElement checkPasswordTxt = driver.findElement(By.name("txtFirstname"));
 //    WebElement phoneNumberTxt = driver.findElement(By.name("txtFirstname"));
-
-
     @BeforeClass
     public void initialBrowser(){
         driver = new FirefoxDriver();
-//        driver.get("https://live.techpanda.org");
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
-        driver.get("https://alada.vn/tai-khoan/dang-ky.html");
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..
     // Cần có chỉ dẫn - annotations để testcase hoạt động
     @Test
-    public void TC_01_Register_Emplty_Data() throws InterruptedException {
+    public void TC_01_Register_Emplty_Data() {
         //Arrange: set up the test enviroment
-        initialBrowser();
+        driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 
         //Act: Execute the code to test
         WebElement clickRegisterButton = driver.findElement(By.xpath("//button[@type='submit']"));
         clickRegisterButton.click();
 
-        WebElement validateFirstname = driver.findElement(By.id("txtFirstname-error"));
-        WebElement validateEmail = driver.findElement(By.id("txtEmail-error"));
-        WebElement validateCheckEmail = driver.findElement(By.id("txtCEmail-error"));
-        WebElement validatePassword = driver.findElement(By.id("txtPassword-error"));
-        WebElement validateCheckPassword = driver.findElement(By.id("txtCPassword-error"));
-        WebElement validatePhoneNumber = driver.findElement(By.id("txtPhone-error"));
-
-
         //Assert: verify the results
-        Assert.assertEquals(validateFirstname.getText(),"Vui lòng nhập họ tên");
+        Assert.assertEquals(driver.findElement(By.id("txtFirstname-error")).getText(),"Vui lòng nhập họ tên");
         System.out.println("success");
-        Assert.assertEquals(validateEmail.getText(),"Vui lòng nhập email");
+        Assert.assertEquals(driver.findElement(By.id("txtEmail-error")).getText(),"Vui lòng nhập email");
         System.out.println("success");
-        Assert.assertEquals(validateCheckEmail.getText(),"Vui lòng nhập lại địa chỉ email");
+        Assert.assertEquals(driver.findElement(By.id("txtCEmail-error")).getText(),"Vui lòng nhập lại địa chỉ email");
         System.out.println("success");
-        Assert.assertEquals(validatePassword.getText(),"Vui lòng nhập mật khẩu");
+        Assert.assertEquals(driver.findElement(By.id("txtPassword-error")).getText(),"Vui lòng nhập mật khẩu");
         System.out.println("success");
-        Assert.assertEquals(validateCheckPassword.getText(),"Vui lòng nhập lại mật khẩu");
+        Assert.assertEquals(driver.findElement(By.id("txtCPassword-error")).getText(),"Vui lòng nhập lại mật khẩu");
         System.out.println("success");
-        Assert.assertEquals(validatePhoneNumber.getText(),"Vui lòng nhập số điện thoại.");
+        Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(),"Vui lòng nhập số điện thoại.");
         System.out.println("success");
 
         System.out.println("success full");
-        Thread.sleep(5000);
     }
 
     @Test
     public void TC_02_Register_Invalid_Email() throws InterruptedException {
         //Arrange
-        initialBrowser();
-        WebElement clickRegisterButton = driver.findElement(By.xpath("//button[@type='submit']"));
-
-        WebElement firtNameTxt = driver.findElement(By.name("txtFirstname"));
-        firtNameTxt.sendKeys("Trinh Duy Phuong");
-        WebElement emailTxt = driver.findElement(By.name("txtEmail"));
-        emailTxt.sendKeys("phuong@phuong@");
-        WebElement checkEmailTxt = driver.findElement(By.name("txtCEmail"));
-        checkEmailTxt.sendKeys("phuong@phuong@");
-        WebElement passwordTxt = driver.findElement(By.name("txtPassword"));
-        passwordTxt.sendKeys("12345678");
-        WebElement checkPasswordTxt = driver.findElement(By.name("txtCPassword"));
-        checkPasswordTxt.sendKeys("12345678");
-        WebElement phoneNumberTxt = driver.findElement(By.name("txtPhone"));
-        phoneNumberTxt.sendKeys("0987876903");
+        driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 
         //Action
-        driver.findElement(By.id("chkRight")).click();
-        clickRegisterButton.click();
-        WebElement validateEmail = driver.findElement(By.id("txtEmail-error"));
-        WebElement validateCheckEmail = driver.findElement(By.id("txtCEmail-error"));
+        driver.findElement(By.cssSelector("input#txtEmail")).sendKeys("phuong@phuong@phuong");
+        driver.findElement(By.cssSelector("input#txtCEmail")).sendKeys("phuong@phuong@phuong");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         //Assert
-        Assert.assertEquals(validateEmail.getText(),"Vui lòng nhập email hợp lệ");
+        Assert.assertEquals(driver.findElement(By.id("txtEmail-error")).getText(),"Vui lòng nhập email hợp lệ");
         System.out.println("success");
-        Assert.assertEquals(validateCheckEmail.getText(),"Email nhập lại không đúng");
+        Assert.assertEquals(driver.findElement(By.id("txtCEmail-error")).getText(),"Vui lòng nhập email hợp lệ");
         System.out.println("success");
         Thread.sleep(5000);
     }
 
     @Test
     public void TC_03_Register_Incorrect_Confirm_Email(){
+        //Arrange
         driver.get("https://alada.vn/tai-khoan/dang-ky.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+        //Action
+        driver.findElement(By.cssSelector("input#txtEmail")).sendKeys("phuongtd@gmail.com");
+        driver.findElement(By.cssSelector("input#txtCEmail")).sendKeys("phuongtd@gmail.net");
 
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        //Assert
+        Assert.assertEquals(driver.findElement(By.id("txtCEmail-error")).getText(),"Email nhập lại không đúng");
+        System.out.println("success");
     }
 
     @Test
     public void TC_04_Register_Invalid_Password(){
         //Arrange
         driver.get("https://alada.vn/tai-khoan/dang-ky.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         //Action
+        driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("1234");
+        driver.findElement(By.xpath("//input[@id='txtCPassword']")).sendKeys("1234");
 
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
         //Assert
 
+        Assert.assertEquals(driver.findElement(By.id("txtPassword-error")).getText(),"Mật khẩu phải có ít nhất 6 ký tự");
+        Assert.assertEquals(driver.findElement(By.id("txtCPassword-error")).getText(),"Mật khẩu phải có ít nhất 6 ký tự");
     }
 
     @Test
     public void TC_05_Incorrect_Confirm_Password(){
         //Arrange
         driver.get("https://alada.vn/tai-khoan/dang-ky.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         //Action
+        driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("1234567");
+        driver.findElement(By.xpath("//input[@id='txtCPassword']")).sendKeys("1234568");
 
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
         //Assert
 
+        Assert.assertEquals(driver.findElement(By.id("txtCPassword-error")).getText(),"Mật khẩu bạn nhập không khớp");
     }
 
     @Test
     public void TC_06_Register_Invalid_PhoneNumber(){
         //Arrange
         driver.get("https://alada.vn/tai-khoan/dang-ky.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        WebElement inputPhoneNUmber = driver.findElement(By.xpath("//input[@id='txtPhone']"));
 
-        //Action
+        //Action - //Assert
+        //<10 number
+        inputPhoneNUmber.sendKeys("098764");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(),"Số điện thoại phải từ 10-11 số.");
+        inputPhoneNUmber.clear();
 
-        //Assert
+        //>11 number
+        inputPhoneNUmber.sendKeys("098764893738");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(),"Số điện thoại phải từ 10-11 số.");
+        inputPhoneNUmber.clear();
+
+        // start-with: 09.03,....
+        driver.findElement(By.xpath("//input[@id='txtPhone']")).sendKeys("98764");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(),"Số điện thoại phải bắt đầu bằng: 09-03-012-016-018-019-088-03-05-07-08");
+        System.out.println("success");
+
+
+
+
+
+
+
+
 
     }
 

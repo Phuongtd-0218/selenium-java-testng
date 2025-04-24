@@ -61,6 +61,9 @@
     "TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/sourceDocs/selenium-support-4.18.1-sources.jar",
@@ -75,7 +78,7 @@
       <recent name="C:\Users\phuongtd\Desktop\Automation\Automation testing\02- Selenium WebDriver\selenium-java-testng\libraries" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data">
+  <component name="RunManager" selected="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password">
     <configuration name="Topic_03_Selenium_XPath_CSS_Exercise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -111,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
+          <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
       <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
-      <option name="METHOD_NAME" value="TC_02_Register_Invalid_Email" />
+      <option name="METHOD_NAME" value="TC_03_Register_Incorrect_Confirm_Email" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,17 +132,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_03_Selenium_XPath_CSS.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
+          <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_XPath_CSS" />
-      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
+      <option name="METHOD_NAME" value="TC_04_Register_Invalid_Password" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
+      <option name="METHOD_NAME" value="TC_06_Register_Invalid_PhoneNumber" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,10 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data" />
-        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email" />
+        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" />
+        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber" />
         <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise" />
-        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS.TC_01_" />
+        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email" />
+        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data" />
       </list>
     </recent_temporary>
   </component>
