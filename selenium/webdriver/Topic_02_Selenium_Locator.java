@@ -169,7 +169,7 @@ public class Topic_02_Selenium_Locator {
 
     }
     @Test
-    public void Topic_09_Relative_Locator(){
+    public void Topic_09_Relative_Locator() throws InterruptedException {
 
         // 1- Khi không thể định danh được element của chính nó (dựa vào những vị trí cạnh đó)
         // 2- Sử dụng khi test GUI (giao diện - position khớp với Design)
@@ -195,10 +195,23 @@ public class Topic_02_Selenium_Locator {
                 .below(passwordTextboxBy) //Label RememberMe nằm dưới Password textbox
                 .toRightOf(rememberMeCheckboxBy) //Label RememberMe bên phải RememberMe checkbox
                 .toLeftOf(forgotPasswordBy)); //Label RememberMe nằm bên trái Forgot Password
+        rememberMeText.click();
+        Thread.sleep(5000);
     }
 
 
+    //Mức độ ưu tiến lấy XPath
+    // 1- DUy nhất
 
+    // 2- Ưu tiên nếu có id/name/class thì dùng trước
+
+    // 3- Giá trị của attribute phải có nghi - liên quan đến element
+
+    // 4- Attribute non (id/name/class) duy nhất và có nghĩa
+
+    // 5- đường link nhưng không dùng với href, nên dùng text hoặc tittle
+
+    // 6- Hạn chế dùng * - //*[@id='']
 
 
 
