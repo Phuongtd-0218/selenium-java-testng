@@ -152,17 +152,8 @@ public class Topic_03_Selenium_XPath_CSS_Exercise {
         // start-with: 09.03,....
         driver.findElement(By.xpath("//input[@id='txtPhone']")).sendKeys("98764");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
-        Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(),"Số điện thoại phải bắt đầu bằng: 09-03-012-016-018-019-088-03-05-07-08");
+        Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(),"Số điện thoại bắt đầu bằng: 09 - 03 - 012 - 016 - 018 - 019 - 088 - 03 - 05 - 07 - 08");
         System.out.println("success");
-
-
-
-
-
-
-
-
-
     }
 
 
