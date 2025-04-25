@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_XPath_CSS_Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_XPath_CSS_Exercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +32,12 @@
     &quot;assignee&quot;: &quot;Phuongtd-0218&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Phuongtd-0218/selenium-java-testng&quot;,
-    &quot;accountId&quot;: &quot;42743b23-a68f-48f5-a354-9543b8aeb215&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Phuongtd-0218/selenium-java-testng",
+    "accountId": "f476f8c2-340e-4454-b937-02f8d25d7e29"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,35 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
-    "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor": "Run",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/sourceDocs/selenium-support-4.18.1-sources.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/sourceDocs/selenium-support-4.18.1-sources.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\phuongtd\Desktop\Automation\Automation testing\02- Selenium WebDriver\selenium-java-testng\sourceDocs" />
       <recent name="C:\Users\phuongtd\Desktop\Automation\Automation testing\02- Selenium WebDriver\selenium-java-testng\libraries" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password">
+  <component name="RunManager" selected="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber">
     <configuration name="Topic_03_Selenium_XPath_CSS_Exercise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -170,14 +169,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" />
         <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber" />
+        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" />
         <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise" />
         <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email" />
         <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="" />
@@ -226,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745466579914</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit">
+      <option name="closed" value="true" />
+      <created>1745565122538</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745565122538</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
