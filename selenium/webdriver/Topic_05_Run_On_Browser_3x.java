@@ -1,6 +1,8 @@
 package webdriver;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -26,7 +28,7 @@ public class Topic_05_Run_On_Browser_3x {
     @Test
     public void TC_02_Run_On_Chorme(){
         System.getProperty("webdriver.gecko.driver"+ projectPath+"\\browserDrivers\\chromedriver.exe");
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
 
         driver.get("https://demo.nopcommerce.com/");
 
@@ -37,7 +39,7 @@ public class Topic_05_Run_On_Browser_3x {
     @Test
     public void TC_02_Run_On_MSEdge(){
         System.getProperty("webdriver.gecko.driver"+ projectPath+"\\browserDrivers\\msedgedriver.exe");
-        driver = new FirefoxDriver();
+        driver = new EdgeDriver();
 
         driver.get("https://demo.nopcommerce.com/");
 
