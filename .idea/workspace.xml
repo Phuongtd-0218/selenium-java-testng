@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit">
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_05_Run_On_Browser_3x.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_05_Run_On_Browser_3x.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_00_Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_05_Run_On_Browser_4x.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_00_Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Check_Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_01_Check_Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_02_Selenium_Locator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_XPath_CSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_03_Selenium_XPath_CSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_XPath_CSS_Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_03_Selenium_XPath_CSS_Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_04_XPath_ACES.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_04_XPath_ACES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_05_Run_On_Browser_3x.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_05_Run_On_Browser_3x.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +75,7 @@
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor": "Run",
     "TestNG.Topic_05_Run_On_Browser.executor": "Run",
     "TestNG.Topic_05_Run_On_Browser_3x.executor": "Run",
+    "TestNG.Topic_05_Run_On_Browser_4x.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
@@ -81,10 +90,12 @@
       <recent name="C:\Users\phuongtd\Desktop\Automation\Automation testing\02- Selenium WebDriver\selenium-java-testng\libraries" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="webdriver.part3" />
+      <recent name="webdriver.part2" />
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_05_Run_On_Browser_3x">
+  <component name="RunManager" selected="TestNG.Topic_05_Run_On_Browser_4x">
     <configuration name="Topíc_05_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaSDET.Topíc_05_Path" />
       <module name="selenium-java-testng" />
@@ -98,33 +109,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_03_Selenium_XPath_CSS_Exercise" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="webdriver.part2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part2.Topic_03_Selenium_XPath_CSS_Exercise" />
       <option name="METHOD_NAME" value="TC_04_Register_Invalid_Password" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -137,12 +131,12 @@
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="webdriver.part2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_XPath_CSS_Exercise" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part2.Topic_03_Selenium_XPath_CSS_Exercise" />
       <option name="METHOD_NAME" value="TC_06_Register_Invalid_PhoneNumber" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -155,12 +149,29 @@
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="webdriver.part2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_05_Run_On_Browser_3x" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_05_Run_On_Browser_3x" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_05_Run_On_Browser_4x" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_05_Run_On_Browser_4x" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -170,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_05_Run_On_Browser_4x" />
         <item itemvalue="TestNG.Topic_05_Run_On_Browser_3x" />
         <item itemvalue="Application.Topíc_05_Path" />
         <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber" />
         <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" />
-        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745999408514</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="edit">
+      <option name="closed" value="true" />
+      <created>1745999462629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745999462629</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
