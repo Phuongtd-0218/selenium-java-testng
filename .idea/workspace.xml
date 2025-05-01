@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_00_Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_05_Run_On_Browser_4x.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_00_Template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Check_Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_01_Check_Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_02_Selenium_Locator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_XPath_CSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_03_Selenium_XPath_CSS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_XPath_CSS_Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_03_Selenium_XPath_CSS_Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_04_XPath_ACES.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part2/Topic_04_XPath_ACES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_05_Run_On_Browser_3x.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_05_Run_On_Browser_3x.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_01_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_06_WebBrowser_Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-api-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-chrome-driver-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-chromium-driver-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-devtools-v85-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-edge-driver-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-firefox-driver-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-grid-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-http-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-ie-driver-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-json-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-manager-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-os-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-remote-driver-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-safari-driver-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-server-4.18.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/selenium-support-4.18.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_04_24_8_55__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_04_2025_23_41_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_04_2025_23_41__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +54,12 @@
     &quot;assignee&quot;: &quot;Phuongtd-0218&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Phuongtd-0218/selenium-java-testng&quot;,
-    &quot;accountId&quot;: &quot;f476f8c2-340e-4454-b937-02f8d25d7e29&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Phuongtd-0218/selenium-java-testng",
+    "accountId": "42743b23-a68f-48f5-a354-9543b8aeb215"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -59,6 +73,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Topic_01_Assertion.executor": "Run",
     "Application.Topíc_05_Path.executor": "Run",
     "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
     "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
@@ -76,6 +91,7 @@
     "TestNG.Topic_05_Run_On_Browser.executor": "Run",
     "TestNG.Topic_05_Run_On_Browser_3x.executor": "Run",
     "TestNG.Topic_05_Run_On_Browser_4x.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
@@ -95,7 +111,20 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_05_Run_On_Browser_4x">
+  <component name="RunManager" selected="TestNG.Topic_06_WebBrowser_Commands.TC_01_">
+    <configuration name="Topic_01_Assertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_01_Assertion" />
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Topíc_05_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaSDET.Topíc_05_Path" />
       <module name="selenium-java-testng" />
@@ -105,42 +134,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part2.Topic_03_Selenium_XPath_CSS_Exercise" />
-      <option name="METHOD_NAME" value="TC_04_Register_Invalid_Password" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part2.Topic_03_Selenium_XPath_CSS_Exercise" />
-      <option name="METHOD_NAME" value="TC_06_Register_Invalid_PhoneNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,13 +172,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_06_WebBrowser_Commands.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_06_WebBrowser_Commands" />
+      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_06_WebBrowser_Commands.TC_01_" />
+        <item itemvalue="Application.Topic_01_Assertion" />
         <item itemvalue="TestNG.Topic_05_Run_On_Browser_4x" />
         <item itemvalue="TestNG.Topic_05_Run_On_Browser_3x" />
         <item itemvalue="Application.Topíc_05_Path" />
-        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber" />
-        <item itemvalue="TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745999462629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="edit">
+      <option name="closed" value="true" />
+      <created>1745999858844</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745999858844</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
