@@ -1,12 +1,17 @@
 package webdriver.part3;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class Topic_06_WebBrowser_Commands {
     // 1- Setup: Os/Browser/Web/Page/Data/Variable/Object/...
@@ -39,7 +44,7 @@ public class Topic_06_WebBrowser_Commands {
         //1-Lưu dữ liệu lại rồi kiểm tra sau
         String homePageTitle = driver.getTitle();
 
-        Assert.assertEquals(homePageTitle,"nopCommerce demo store. Home page title");
+        Assert.assertEquals(homePageTitle, "nopCommerce demo store. Home page title");
 
         //Lấy ra URL của page hiện tại
         driver.getCurrentUrl();
@@ -63,8 +68,38 @@ public class Topic_06_WebBrowser_Commands {
         // Đi tìm n element
         driver.findElements(By.xpath(""));
 
-        driver.manage().timeouts().getScriptTimeout();
+        WebDriver.Options options = driver.manage();
+        WebDriver.Timeouts timeOuts = driver.manage().timeouts();
+        //Selenium ver3
+        timeOuts.implicitlyWait(15, TimeUnit.SECONDS);
 
+        //Selenium ver4
+        //DÙng để chờ việc tìm element
+        timeOuts.implicitlyWait(Duration.ofSeconds(15));
+
+        //Dùng để chờ việc page load
+        timeOuts.pageLoadTimeout(Duration.ofSeconds(15));
+
+        //Dùng để chờ 1 đoạn script được thực thi
+        timeOuts.scriptTimeout(Duration.ofSeconds(200));
+
+        WebDriver.Window window = driver.manage().window();
+        //Thu nhỏ tab để chạy
+        window.minimize();
+
+        //Vẫn còn taskbar
+        window.maximize();
+
+        //không còn taskbar
+        window.fullscreen();
+
+
+        window.setSize(new Dimension(1920, 1080));
+        window.getSize();
+
+        //Set vị trí của màn hình test so với màn hình hiện tại
+        window.setPosition(new Point(0, 0));
+        window.getPosition();
 
     }
 
