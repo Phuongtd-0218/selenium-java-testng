@@ -1,16 +1,19 @@
 package webdriver.part3;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.Logs;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class Topic_06_WebBrowser_Commands {
@@ -31,14 +34,14 @@ public class Topic_06_WebBrowser_Commands {
     @Test
     public void TC_01_() {
         String homePageUrl = "https://demo.nopcommerce.com";
-        driver.get(homePageUrl);
+        driver.get(homePageUrl); //**
         //Giá trị truyền vào phải là link bắt đầu bằng giao thức 'http://' hoặc 'https://'
 
         //Đóng browser/tabs
-//        driver.close();
+//        driver.close(); //*
 
         //Đóng browser
-//        driver.quit();
+//        driver.quit(); //**
 
         //Lấy ra title của page hiện tại
         //1-Lưu dữ liệu lại rồi kiểm tra sau
@@ -63,10 +66,10 @@ public class Topic_06_WebBrowser_Commands {
         driver.getWindowHandles();
 
         // Đi tìm element
-        driver.findElement(By.xpath(""));
+        driver.findElement(By.xpath("")); //**
 
         // Đi tìm n element
-        driver.findElements(By.xpath(""));
+        driver.findElements(By.xpath("")); //**
 
         WebDriver.Options options = driver.manage();
         WebDriver.Timeouts timeOuts = driver.manage().timeouts();
@@ -75,7 +78,7 @@ public class Topic_06_WebBrowser_Commands {
 
         //Selenium ver4
         //DÙng để chờ việc tìm element
-        timeOuts.implicitlyWait(Duration.ofSeconds(15));
+        timeOuts.implicitlyWait(Duration.ofSeconds(15)); //**
 
         //Dùng để chờ việc page load
         timeOuts.pageLoadTimeout(Duration.ofSeconds(15));
@@ -88,7 +91,7 @@ public class Topic_06_WebBrowser_Commands {
         window.minimize();
 
         //Vẫn còn taskbar
-        window.maximize();
+        window.maximize(); //*
 
         //không còn taskbar
         window.fullscreen();
@@ -100,6 +103,78 @@ public class Topic_06_WebBrowser_Commands {
         //Set vị trí của màn hình test so với màn hình hiện tại
         window.setPosition(new Point(0, 0));
         window.getPosition();
+
+        //Lấy tất cả cookie: Test Class01 (Register tài khoản -lưu cookie lại)
+        Set<Cookie> getCookie = options.getCookies(); //*
+
+        options.getCookieNamed(".Nop.Antiforgery");
+
+        //Xóa hết cookie
+        options.deleteAllCookies();
+
+        for (Cookie cookie : getCookie) {
+            //Xóa theo thứ tự
+            options.deleteCookie(cookie);
+        }
+
+        //Xóa cookie theo tên
+        options.deleteCookieNamed(".Nop.Antiforgery");
+
+        // Đến 1 Test class khác 02/03/04/...(Kông cần login - set cookie đã có vào đây rồi refresh lại)
+        for (Cookie cookie : getCookie) {
+            //Xóa theo thứ tự
+            options.addCookie(cookie);
+        }
+
+        driver.navigate().refresh();//Login thành công
+
+        //
+        Logs log = driver.manage().logs();
+        LogEntries logEntries = log.get("BROWSER");
+        for (LogEntry logEn : logEntries) {
+            System.out.println(logEn);
+        }
+        log.getAvailableLogTypes();
+
+        WebDriver.Navigation navigation = driver.navigate();
+
+        //Refresh / F5
+        navigation.refresh();
+
+        //Quay về trang trước
+        navigation.back();
+
+        //Chuyển tiếp trang
+        navigation.forward();
+
+        //Mở URL bất kì
+        navigation.to("https://demo.nopcommerce.com/books");
+
+//        try {
+//            navigation.to(new URL("https://demo.nopcommerce.com/apparel"));
+//        } catch (MalformedURLException e) {
+//            throw new RuntimeException(e);
+//        }
+
+        // swichTo - Alert/Iframe/Windows(Tabs)
+        WebDriver.TargetLocator targetLocator = driver.switchTo();
+
+        //Alert
+        targetLocator.alert().accept(); //*
+        targetLocator.alert().dismiss(); //*
+
+        // Frame/Iframe
+        targetLocator.frame(""); //*
+        targetLocator.defaultContent(); //*
+
+        //Windows
+        targetLocator.window(""); //*
+
+        //Lấy ra ID của tab/window đang active
+        driver.getWindowHandle();   //*
+
+        //Lấy ra tất cả ID của tab/window đang có
+        driver.getWindowHandles();   //*
 
     }
 
