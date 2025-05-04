@@ -1,9 +1,6 @@
 package webdriver.part3;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -59,10 +56,56 @@ public class Topic_07_WebElement_Commands {
         // Kiểm tra xem element có bị disable hay không (read-only)
         element.isEnabled();
 
-
         element.getCssValue("background-color");
+        //#4ab2f1
 
         element.getText();
+
+        element.getAttribute("placeholder");
+        //→Search store
+
+        Dimension dimensionBrowser = driver.manage().window().getSize();
+
+        //Chiều rộng/cao của element
+        Dimension dimensionElement = element.getSize();
+
+        //Lấy góc trên cùng bên trái để so với viền của browser
+        Point pointBrowser = driver.manage().window().getPosition();
+
+        //Vị trí của element so với view-point
+        element.getLocation();
+
+        Rectangle rectangle = element.getRect();
+
+        //Size
+        rectangle.getWidth();
+        rectangle.getHeight();
+        rectangle.getDimension();
+
+        //Location
+        rectangle.getX();
+        rectangle.getY();
+        rectangle.getPoint();
+
+        //
+        element.getTagName();
+
+        //
+        element.getAccessibleName();
+
+        element.getAriaRole();
+
+        element.getDomAttribute("");
+
+        element.getDomProperty("");
+
+        // Liên quan đến bài học popup
+        element.getShadowRoot();
+
+        //Framework: HTML report
+        element.getScreenshotAs(OutputType.FILE);
+        element.getScreenshotAs(OutputType.BYTES);
+        element.getScreenshotAs(OutputType.BASE64);
     }
 
 }
