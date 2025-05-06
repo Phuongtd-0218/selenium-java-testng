@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_08_WebBrowser_Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_09_WebBrowser_Exercise2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,9 @@
     "TestNG.Topic_08_WebBrowser_Exercise.TC_02_Title.executor": "Run",
     "TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate.executor": "Run",
     "TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
@@ -94,61 +97,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code">
-    <configuration name="Topic_06_WebBrowser_Commands.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_06_WebBrowser_Commands" />
-      <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_WebBrowser_Exercise.TC_01_URL" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_08_WebBrowser_Exercise" />
-      <option name="METHOD_NAME" value="TC_01_URL" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_WebBrowser_Exercise.TC_02_Title" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_08_WebBrowser_Exercise" />
-      <option name="METHOD_NAME" value="TC_02_Title" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected">
     <configuration name="Topic_08_WebBrowser_Exercise.TC_03_Navigate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -185,13 +134,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_09_WebBrowser_Exercise2.TC_01_Displayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise2" />
+      <option name="METHOD_NAME" value="TC_01_Displayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_09_WebBrowser_Exercise2.TC_02_Enable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise2" />
+      <option name="METHOD_NAME" value="TC_02_Enable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_09_WebBrowser_Exercise2.TC_03_Selected" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise2" />
+      <option name="METHOD_NAME" value="TC_03_Selected" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected" />
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable" />
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed" />
         <item itemvalue="TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code" />
         <item itemvalue="TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate" />
-        <item itemvalue="TestNG.Topic_08_WebBrowser_Exercise.TC_02_Title" />
-        <item itemvalue="TestNG.Topic_08_WebBrowser_Exercise.TC_01_URL" />
-        <item itemvalue="TestNG.Topic_06_WebBrowser_Commands.TC_01_" />
       </list>
     </recent_temporary>
   </component>
