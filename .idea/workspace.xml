@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_09_WebBrowser_Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_09_WebBrowser_Exercise_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_09_WebBrowser_Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_09_WebBrowser_Exercise2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +34,12 @@
     &quot;assignee&quot;: &quot;Phuongtd-0218&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Phuongtd-0218/selenium-java-testng&quot;,
-    &quot;accountId&quot;: &quot;42743b23-a68f-48f5-a354-9543b8aeb215&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Phuongtd-0218/selenium-java-testng",
+    "accountId": "f476f8c2-340e-4454-b937-02f8d25d7e29"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -78,6 +79,11 @@
     "TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed.executor": "Run",
     "TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable.executor": "Run",
     "TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_01_.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
@@ -97,44 +103,8 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected">
-    <configuration name="Topic_08_WebBrowser_Exercise.TC_03_Navigate" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_08_WebBrowser_Exercise" />
-      <option name="METHOD_NAME" value="TC_03_Navigate" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_08_WebBrowser_Exercise" />
-      <option name="METHOD_NAME" value="TC_03_Page_Source_Code" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_09_WebBrowser_Exercise2.TC_01_Displayed" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword">
+    <configuration name="Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
       <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise2" />
-      <option name="METHOD_NAME" value="TC_01_Displayed" />
+      <option name="METHOD_NAME" value="TC_04_MailChimp_Register_Validate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_09_WebBrowser_Exercise2.TC_02_Enable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_09_WebBrowser_Exercise_II.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -161,8 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise2" />
-      <option name="METHOD_NAME" value="TC_02_Enable" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise_II" />
+      <option name="METHOD_NAME" value="TC_01_" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_09_WebBrowser_Exercise2.TC_03_Selected" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -179,8 +149,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise2" />
-      <option name="METHOD_NAME" value="TC_03_Selected" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise_II" />
+      <option name="METHOD_NAME" value="TC_02_Login_Invalid_Email" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise_II" />
+      <option name="METHOD_NAME" value="TC_03_Login_Password_Under_6Characters" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise_II" />
+      <option name="METHOD_NAME" value="TC_04_Login_Incorrect_EmailOrPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -190,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected" />
-        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable" />
-        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed" />
-        <item itemvalue="TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code" />
-        <item itemvalue="TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate" />
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword" />
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters" />
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email" />
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_01_" />
+        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate" />
       </list>
     </recent_temporary>
   </component>
