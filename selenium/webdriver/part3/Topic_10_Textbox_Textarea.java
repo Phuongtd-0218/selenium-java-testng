@@ -2,6 +2,7 @@ package webdriver.part3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -50,13 +51,11 @@ public class Topic_10_Textbox_Textarea {
         driver.findElement(By.cssSelector("input#password")).sendKeys(password);
         driver.findElement(By.cssSelector("input#confirmation")).sendKeys(password);
 
-        driver.findElement(By.cssSelector("button.button.validation-passed")).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+        driver.findElement(By.cssSelector("button[title='Register']")).click();
 
-        driver.get("https://live.techpanda.org/index.php/customer/account/index/");
-
-
-        Assert.assertEquals(driver.findElement(By.cssSelector("li.success-msg span")).getText(),"Thank you for registering with Main Website Store.");
+        String gettext = driver.findElement(By.cssSelector("li.success-msg span")).getText();
+        //Tuyệt đối
+        Assert.assertEquals(gettext,"Thank you for registering with Main Website Store.");
 
         String contactInforText = driver.findElement(By.xpath("//h3[text()='Contact Information']/parent::div/following-sibling::div[@class='box-content']/p")).getText();
 
@@ -65,11 +64,7 @@ public class Topic_10_Textbox_Textarea {
         // Verify  tương đối
         Assert.assertTrue(contactInforText.contains(fullName) && contactInforText.contains(emailAddress)); //Fullname & Email
 
-
-
-
     }
-
     @Test
     public void TC_02_(){
 
