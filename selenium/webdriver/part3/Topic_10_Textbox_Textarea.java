@@ -64,6 +64,11 @@ public class Topic_10_Textbox_Textarea {
         // Verify  tương đối
         Assert.assertTrue(contactInforText.contains(fullName) && contactInforText.contains(emailAddress)); //Fullname & Email
 
+        driver.findElement(By.xpath("//h3[text()='Contact Information']/following-sibling::a")).click();
+        Assert.assertEquals(driver.findElement(By.id("firstname")).getAttribute("value"),firstName);
+        Assert.assertEquals(driver.findElement(By.id("lastname")).getAttribute("value"),lastName);
+        Assert.assertEquals(driver.findElement(By.id("email")).getAttribute("value"),emailAddress);
+
     }
     @Test
     public void TC_02_(){
@@ -72,9 +77,9 @@ public class Topic_10_Textbox_Textarea {
     }
 
     // 3- Clean: Delete data test/account/close browser/...
-    @AfterClass
-    public void cleanBrowser(){
-        driver.quit();
-    }
+//    @AfterClass
+//    public void cleanBrowser(){
+//        driver.quit();
+//    }
 
 }
