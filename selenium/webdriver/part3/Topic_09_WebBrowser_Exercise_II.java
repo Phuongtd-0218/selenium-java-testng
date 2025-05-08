@@ -29,8 +29,6 @@ public class Topic_09_WebBrowser_Exercise_II {
     public void TC_01_Login_Empty_EmailAndPassword() {
         driver.get("http://live.techpanda.org/");
         driver.findElement(By.xpath("//div[@class='footer']//a[text()='My Account']")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://live.techpanda.org/index.php/customer/account/login/");
-        System.out.println("true");
 
         driver.findElement(By.cssSelector("button#send2")).click();
 

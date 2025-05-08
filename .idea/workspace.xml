@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Textarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2025_12_37_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2025_12_37__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_09_WebBrowser_Exercise_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_09_WebBrowser_Exercise_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Textarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Textarea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,11 @@
     &quot;accountId&quot;: &quot;f476f8c2-340e-4454-b937-02f8d25d7e29&quot;
   }
 }</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Topic_10_Textbox_Textarea.TC_01_TechPanda" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -51,46 +57,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Topic_01_Assertion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topíc_05_Path.executor&quot;: &quot;Run&quot;,
-    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
-    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_Run_On_Browser.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_Run_On_Browser_3x.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_05_Run_On_Browser_4x.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_01_URL.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_02_Title.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Topic_01_Assertion.executor": "Run",
+    "Application.Topíc_05_Path.executor": "Run",
+    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
+    "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor": "Run",
+    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor": "Run",
+    "TestNG.Topic_05_Run_On_Browser.executor": "Run",
+    "TestNG.Topic_05_Run_On_Browser_3x.executor": "Run",
+    "TestNG.Topic_05_Run_On_Browser_4x.executor": "Run",
+    "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
+    "TestNG.Topic_08_WebBrowser_Exercise.TC_01_URL.executor": "Run",
+    "TestNG.Topic_08_WebBrowser_Exercise.TC_02_Title.executor": "Run",
+    "TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate.executor": "Run",
+    "TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_01_.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters.executor": "Run",
+    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword.executor": "Run",
+    "TestNG.Topic_10_Textbox_Textarea.TC_01_TechPanda.executor": "Run",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Selenium-Java-Testng\02-Selenium-webdriver-testng\selenium-java-testng\browserDrivers" />
@@ -103,25 +110,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword">
-    <configuration name="Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise2" />
-      <option name="METHOD_NAME" value="TC_04_MailChimp_Register_Validate" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_10_Textbox_Textarea.TC_01_TechPanda">
     <configuration name="Topic_09_WebBrowser_Exercise_II.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -194,13 +183,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_10_Textbox_Textarea.TC_01_TechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_10_Textbox_Textarea" />
+      <option name="METHOD_NAME" value="TC_01_TechPanda" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_10_Textbox_Textarea.TC_01_TechPanda" />
         <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword" />
         <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters" />
         <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email" />
         <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_01_" />
-        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate" />
       </list>
     </recent_temporary>
   </component>
