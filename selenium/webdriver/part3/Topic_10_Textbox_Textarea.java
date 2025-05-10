@@ -69,9 +69,12 @@ public class Topic_10_Textbox_Textarea {
         Assert.assertEquals(driver.findElement(By.id("lastname")).getAttribute("value"),lastName);
         Assert.assertEquals(driver.findElement(By.id("email")).getAttribute("value"),emailAddress);
 
+        driver.findElement(By.cssSelector("div.account-cart-wrapper>a")).click();
+        driver.findElement(By.cssSelector("div#header-account a[title='Log Out']"));
+
     }
     @Test
-    public void TC_02_(){
+    public void TC_02_Textbox_Area(){
 
 
     }

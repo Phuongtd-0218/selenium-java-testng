@@ -72,12 +72,15 @@ public class Topic01_DataType {
 
     //Object
 
+
     Object name = 12345;
     Object isDisplayed = true;
 
+    Topic01_DataType test = new Topic01_DataType();
     //Convention: Quy ước khi lập trình
     //Tên biến/ tên hàm: viết dưới dạng camel case
     //Chữ cái đầu tiên luôn viết thường
     // Ví dụ: biến: name/address/city/phone/zipCode
     // hàm: clickToElement/getUserName/ getPhoneNumber/ selectItemInDropdown
+
 }

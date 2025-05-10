@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit">
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit textarea">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_11_Dropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaSDET/Topic01_DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaSDET/Topic01_DataType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Textarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Textarea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Phuongtd-0218/selenium-java-testng&quot;,
-    &quot;accountId&quot;: &quot;f476f8c2-340e-4454-b937-02f8d25d7e29&quot;
+    &quot;accountId&quot;: &quot;42743b23-a68f-48f5-a354-9543b8aeb215&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -86,11 +88,13 @@
     "TestNG.Topic_10_Textbox_Textarea.TC_01_TechPanda.executor": "Run",
     "TestNG.Topic_10_Textbox_Textarea.TC_02_.executor": "Run",
     "TestNG.Topic_10_Textbox_Textarea.executor": "Run",
+    "TestNG.Topic_11_Dropdown.TC_01_Facebook_SignUp.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,25 +109,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_10_Textbox_Textarea">
-    <configuration name="Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_09_WebBrowser_Exercise_II" />
-      <option name="METHOD_NAME" value="TC_03_Login_Password_Under_6Characters" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_11_Dropdown.TC_01_Facebook_SignUp">
     <configuration name="Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -195,13 +181,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_11_Dropdown.TC_01_Facebook_SignUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_11_Dropdown" />
+      <option name="METHOD_NAME" value="TC_01_Facebook_SignUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_11_Dropdown.TC_01_Facebook_SignUp" />
         <item itemvalue="TestNG.Topic_10_Textbox_Textarea" />
         <item itemvalue="TestNG.Topic_10_Textbox_Textarea.TC_02_" />
         <item itemvalue="TestNG.Topic_10_Textbox_Textarea.TC_01_TechPanda" />
         <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword" />
-        <item itemvalue="TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746702760727</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="edit textarea">
+      <option name="closed" value="true" />
+      <created>1746726922446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746726922446</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +346,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="edit textarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit textarea" />
   </component>
 </project>
