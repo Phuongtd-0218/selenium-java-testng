@@ -1,9 +1,12 @@
 package webdriver.part3;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -35,6 +38,8 @@ public class Topic_10_Textbox_Textarea {
         emailAddress = firstName + random.nextInt(999) + "gmail.com";
         password="123456";
         fullName = firstName + " " + lastName;
+
+        
     }
 
     // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..
@@ -52,6 +57,13 @@ public class Topic_10_Textbox_Textarea {
         driver.findElement(By.cssSelector("input#confirmation")).sendKeys(password);
 
         driver.findElement(By.cssSelector("button[title='Register']")).click();
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+
+        alert.accept();
+
+
 
         String gettext = driver.findElement(By.cssSelector("li.success-msg span")).getText();
         //Tuyệt đối
