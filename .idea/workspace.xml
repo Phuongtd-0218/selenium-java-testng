@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit textarea">
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic07">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_12_Custom_Dropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Textarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_10_Textbox_Textarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_11_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_11_Default_Dropdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746726922446</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="edit part3-topic07">
+      <option name="closed" value="true" />
+      <created>1747040914517</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747040914518</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,6 +356,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit" />
     <MESSAGE value="edit textarea" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit textarea" />
+    <MESSAGE value="edit part3-topic07" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic07" />
   </component>
 </project>
