@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic07">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_12_Custom_Dropdown.java" afterDir="false" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic08">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_13_Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_05_9_17__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_12_Custom_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_12_Custom_Dropdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,11 @@
     "TestNG.Topic_11_Default_Dropdown.TC_02_NopCpmmerce.executor": "Run",
     "TestNG.Topic_11_Default_Dropdown.TC_03_Rode.executor": "Run",
     "TestNG.Topic_11_Dropdown.TC_01_Facebook_SignUp.executor": "Run",
+    "TestNG.Topic_12_Custom_Dropdown.TC_01_.executor": "Run",
+    "TestNG.Topic_12_Custom_Dropdown.TC_01_Jquery.executor": "Run",
+    "TestNG.Topic_12_Custom_Dropdown.TC_02_React.executor": "Run",
+    "TestNG.Topic_12_Custom_Dropdown.TC_03_VueJS.executor": "Run",
+    "TestNG.Topic_13_Button.TC_01_Fahasa.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
@@ -110,8 +117,8 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_11_Default_Dropdown.TC_03_Rode">
-    <configuration name="Topic_10_Textbox_Textarea" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_13_Button.TC_01_Fahasa">
+    <configuration name="Topic_12_Custom_Dropdown.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -120,25 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_10_Textbox_Textarea" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_10_Textbox_Textarea.TC_02_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_10_Textbox_Textarea" />
-      <option name="METHOD_NAME" value="TC_02_" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_12_Custom_Dropdown" />
+      <option name="METHOD_NAME" value="TC_01_" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_11_Default_Dropdown.TC_01_Facebook_SignUp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_12_Custom_Dropdown.TC_01_Jquery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +145,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_11_Default_Dropdown" />
-      <option name="METHOD_NAME" value="TC_01_Facebook_SignUp" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_12_Custom_Dropdown" />
+      <option name="METHOD_NAME" value="TC_01_Jquery" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_11_Default_Dropdown.TC_02_NopCpmmerce" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_12_Custom_Dropdown.TC_02_React" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -173,8 +163,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_11_Default_Dropdown" />
-      <option name="METHOD_NAME" value="TC_02_NopCpmmerce" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_12_Custom_Dropdown" />
+      <option name="METHOD_NAME" value="TC_02_React" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,7 +172,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_11_Default_Dropdown.TC_03_Rode" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_12_Custom_Dropdown.TC_03_VueJS" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -191,8 +181,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_11_Default_Dropdown" />
-      <option name="METHOD_NAME" value="TC_03_Rode" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_12_Custom_Dropdown" />
+      <option name="METHOD_NAME" value="TC_03_VueJS" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_13_Button.TC_01_Fahasa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_13_Button" />
+      <option name="METHOD_NAME" value="TC_01_Fahasa" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_11_Default_Dropdown.TC_03_Rode" />
-        <item itemvalue="TestNG.Topic_11_Default_Dropdown.TC_02_NopCpmmerce" />
-        <item itemvalue="TestNG.Topic_11_Default_Dropdown.TC_01_Facebook_SignUp" />
-        <item itemvalue="TestNG.Topic_10_Textbox_Textarea" />
-        <item itemvalue="TestNG.Topic_10_Textbox_Textarea.TC_02_" />
+        <item itemvalue="TestNG.Topic_13_Button.TC_01_Fahasa" />
+        <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_03_VueJS" />
+        <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_02_React" />
+        <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_01_Jquery" />
+        <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_01_" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747040914518</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="edit part3-topic08">
+      <option name="closed" value="true" />
+      <created>1747101896873</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747101896874</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,6 +373,7 @@
     <MESSAGE value="edit" />
     <MESSAGE value="edit textarea" />
     <MESSAGE value="edit part3-topic07" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic07" />
+    <MESSAGE value="edit part3-topic08" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic08" />
   </component>
 </project>
