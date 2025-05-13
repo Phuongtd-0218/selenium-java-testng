@@ -39,7 +39,7 @@ public class Topic_13_Button {
         String loginBackGroundColor = driver.findElement(loginButton).getCssValue("background-color");
 
         Color loginColor = Color.fromString(loginBackGroundColor);
-        Assert.assertEquals(loginColor.asHex().toUpperCase(),"#00000");
+        Assert.assertEquals(loginColor.asHex().toUpperCase(),"#000000");
     }
 
     @Test
