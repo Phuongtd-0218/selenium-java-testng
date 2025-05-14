@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic08">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_13_Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_05_9_17__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic10">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_14_Checkbox_Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_05_2025_23_15_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_05_2025_23_15__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_12_Custom_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_12_Custom_Dropdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +97,7 @@
     "TestNG.Topic_12_Custom_Dropdown.TC_02_React.executor": "Run",
     "TestNG.Topic_12_Custom_Dropdown.TC_03_VueJS.executor": "Run",
     "TestNG.Topic_13_Button.TC_01_Fahasa.executor": "Run",
+    "TestNG.Topic_14_Checkbox_Radio.TC_01_KendoUI_JQuery.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
@@ -117,43 +118,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_13_Button.TC_01_Fahasa">
-    <configuration name="Topic_12_Custom_Dropdown.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_12_Custom_Dropdown" />
-      <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_12_Custom_Dropdown.TC_01_Jquery" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_12_Custom_Dropdown" />
-      <option name="METHOD_NAME" value="TC_01_Jquery" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_14_Checkbox_Radio.TC_01_Telerik">
     <configuration name="Topic_12_Custom_Dropdown.TC_02_React" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -208,13 +173,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_14_Checkbox_Radio.TC_01_KendoUI_JQuery" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_14_Checkbox_Radio" />
+      <option name="METHOD_NAME" value="TC_01_KendoUI_JQuery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_14_Checkbox_Radio.TC_01_Telerik" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_14_Checkbox_Radio" />
+      <option name="METHOD_NAME" value="TC_01_Telerik" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_14_Checkbox_Radio.TC_01_Telerik" />
+        <item itemvalue="TestNG.Topic_14_Checkbox_Radio.TC_01_KendoUI_JQuery" />
         <item itemvalue="TestNG.Topic_13_Button.TC_01_Fahasa" />
         <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_03_VueJS" />
         <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_02_React" />
-        <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_01_Jquery" />
-        <item itemvalue="TestNG.Topic_12_Custom_Dropdown.TC_01_" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +356,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747101896874</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="edit part3-topic09">
+      <option name="closed" value="true" />
+      <created>1747123214681</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747123214681</updated>
+    </task>
+    <task id="LOCAL-00018" summary="edit part3-topic10">
+      <option name="closed" value="true" />
+      <created>1747134851072</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747134851072</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,6 +391,8 @@
     <MESSAGE value="edit textarea" />
     <MESSAGE value="edit part3-topic07" />
     <MESSAGE value="edit part3-topic08" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic08" />
+    <MESSAGE value="edit part3-topic09" />
+    <MESSAGE value="edit part3-topic10" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic10" />
   </component>
 </project>
