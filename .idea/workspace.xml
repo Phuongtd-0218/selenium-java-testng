@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 11">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_15_Custom_Checkbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_07_9_25_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_07_9_25__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 12">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2025_23_36_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2025_23_36__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_08_16_18_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_08_16_18__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_15_Custom_Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_15_Custom_Checkbox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +104,7 @@
     "TestNG.Topic_14_Checkbox_Radio.TC_02_Multiple.executor": "Run",
     "TestNG.Topic_14_Checkbox_Radio.executor": "Run",
     "TestNG.Topic_15_Custom_Checkbox.TC_01_.executor": "Run",
+    "TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
     "project.structure.last.edited": "Modules",
@@ -122,7 +125,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_15_Custom_Checkbox.TC_01_">
+  <component name="RunManager" selected="TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu">
     <configuration name="Topic_14_Checkbox_Radio" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -134,24 +137,6 @@
       <option name="PACKAGE_NAME" value="webdriver.part3" />
       <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_14_Checkbox_Radio" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_14_Checkbox_Radio.TC_01_KendoUI_JQuery" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_14_Checkbox_Radio" />
-      <option name="METHOD_NAME" value="TC_01_KendoUI_JQuery" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -212,13 +197,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_15_Custom_Checkbox.TC_01_Ubuntu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_15_Custom_Checkbox" />
+      <option name="METHOD_NAME" value="TC_01_Ubuntu" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu" />
         <item itemvalue="TestNG.Topic_15_Custom_Checkbox.TC_01_" />
         <item itemvalue="TestNG.Topic_14_Checkbox_Radio.TC_02_Multiple" />
         <item itemvalue="TestNG.Topic_14_Checkbox_Radio.TC_01_Telerik" />
         <item itemvalue="TestNG.Topic_14_Checkbox_Radio" />
-        <item itemvalue="TestNG.Topic_14_Checkbox_Radio.TC_01_KendoUI_JQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747198264061</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="edit part3-topic 12">
+      <option name="closed" value="true" />
+      <created>1747242562889</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1747242562889</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,6 +416,7 @@
     <MESSAGE value="edit part3-topic09" />
     <MESSAGE value="edit part3-topic10" />
     <MESSAGE value="edit part3-topic 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 11" />
+    <MESSAGE value="edit part3-topic 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 12" />
   </component>
 </project>
