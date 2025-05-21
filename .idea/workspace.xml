@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 12">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2025_23_36_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2025_23_36__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_08_16_18_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_08_16_18__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/commons-codec-1.16.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_16_JS_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_17_Authentication_Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_05_2025_00_10_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_05_2025_00_10__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_05_2025_23_48_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_05_2025_23_48__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_12_9_19_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_12_9_19__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_15_Custom_Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_15_Custom_Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-java-testng.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,9 +110,15 @@
     "TestNG.Topic_14_Checkbox_Radio.executor": "Run",
     "TestNG.Topic_15_Custom_Checkbox.TC_01_.executor": "Run",
     "TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu.executor": "Run",
+    "TestNG.Topic_16_JS_Alert.TC_01_Accept_Alert.executor": "Run",
+    "TestNG.Topic_16_JS_Alert.TC_02_Confirm_Alert.executor": "Run",
+    "TestNG.Topic_16_JS_Alert.TC_03_Confirm_Prompt.executor": "Run",
+    "TestNG.Topic_16_JS_Alert.executor": "Run",
+    "TestNG.Topic_17_Authentication_Alert.TC_01_Authenticator_Url.executor": "Run",
+    "TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/browserDrivers",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -115,6 +126,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Selenium-Java-Testng\02-Selenium-webdriver-testng\selenium-java-testng\libraries" />
       <recent name="D:\Selenium-Java-Testng\02-Selenium-webdriver-testng\selenium-java-testng\browserDrivers" />
       <recent name="C:\Users\phuongtd\Desktop\Automation\Automation testing\02- Selenium WebDriver\selenium-java-testng\sourceDocs" />
       <recent name="C:\Users\phuongtd\Desktop\Automation\Automation testing\02- Selenium WebDriver\selenium-java-testng\libraries" />
@@ -125,8 +137,8 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu">
-    <configuration name="Topic_14_Checkbox_Radio" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate">
+    <configuration name="Topic_16_JS_Alert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +147,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_14_Checkbox_Radio" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_16_JS_Alert" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -143,7 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_14_Checkbox_Radio.TC_01_Telerik" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_16_JS_Alert.TC_02_Confirm_Alert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +164,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_14_Checkbox_Radio" />
-      <option name="METHOD_NAME" value="TC_01_Telerik" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_16_JS_Alert" />
+      <option name="METHOD_NAME" value="TC_02_Confirm_Alert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,7 +173,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_14_Checkbox_Radio.TC_02_Multiple" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_16_JS_Alert.TC_03_Confirm_Prompt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -170,8 +182,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_14_Checkbox_Radio" />
-      <option name="METHOD_NAME" value="TC_02_Multiple" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_16_JS_Alert" />
+      <option name="METHOD_NAME" value="TC_03_Confirm_Prompt" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -179,7 +191,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_15_Custom_Checkbox.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_17_Authentication_Alert.TC_01_Authenticator_Url" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -188,8 +200,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_15_Custom_Checkbox" />
-      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_17_Authentication_Alert" />
+      <option name="METHOD_NAME" value="TC_01_Authenticator_Url" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,7 +209,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_15_Custom_Checkbox.TC_01_Ubuntu" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -206,8 +218,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_15_Custom_Checkbox" />
-      <option name="METHOD_NAME" value="TC_01_Ubuntu" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_17_Authentication_Alert" />
+      <option name="METHOD_NAME" value="TC_02_Authenticator_Navigate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -217,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu" />
-        <item itemvalue="TestNG.Topic_15_Custom_Checkbox.TC_01_" />
-        <item itemvalue="TestNG.Topic_14_Checkbox_Radio.TC_02_Multiple" />
-        <item itemvalue="TestNG.Topic_14_Checkbox_Radio.TC_01_Telerik" />
-        <item itemvalue="TestNG.Topic_14_Checkbox_Radio" />
+        <item itemvalue="TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate" />
+        <item itemvalue="TestNG.Topic_17_Authentication_Alert.TC_01_Authenticator_Url" />
+        <item itemvalue="TestNG.Topic_16_JS_Alert" />
+        <item itemvalue="TestNG.Topic_16_JS_Alert.TC_03_Confirm_Prompt" />
+        <item itemvalue="TestNG.Topic_16_JS_Alert.TC_02_Confirm_Alert" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +406,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747242562889</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="edit part3-topic 12">
+      <option name="closed" value="true" />
+      <created>1747328901189</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1747328901189</updated>
+    </task>
+    <task id="LOCAL-00022" summary="edit part3-topic 12">
+      <option name="closed" value="true" />
+      <created>1747331858995</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747331858995</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
