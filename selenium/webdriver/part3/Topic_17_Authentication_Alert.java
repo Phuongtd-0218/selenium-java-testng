@@ -3,10 +3,13 @@ package webdriver.part3;
 import org.apache.commons.codec.binary.Base64;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
-import org.openqa.selenium.devtools.v85.network.Network;
-import org.openqa.selenium.devtools.v85.network.model.Headers;
+
+import org.openqa.selenium.devtools.v136.network.Network;
+import org.openqa.selenium.devtools.v136.network.model.Headers;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -33,7 +36,7 @@ public class Topic_17_Authentication_Alert {
 
     @BeforeClass
     public void initialBrowser() {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
@@ -87,6 +90,9 @@ public class Topic_17_Authentication_Alert {
          devTools.send(Network.setExtraHTTPHeaders(new Headers(headers)));
 
          driver.get("https://the-internet.herokuapp.com/basic_auth");
+
+         Assert.assertEquals(driver.findElement(By.cssSelector("div.example>p")).getText(),
+                 "Congratulations! You must have the proper credentials.");
      }
 
     // 3- Clean: Delete data test/account/close browser/...

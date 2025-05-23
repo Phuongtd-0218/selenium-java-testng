@@ -2,8 +2,9 @@
   <library name="libraries">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libraries/testng-7.8.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libraries/selenium-server-4.18.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/commons-codec-1.16.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/libraries/selenium-server-4.32.0" />
+      <root url="jar://$PROJECT_DIR$/libraries/selenium-server-4.32.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
@@ -22,6 +23,11 @@
       <root url="jar://$PROJECT_DIR$/sourceDocs/selenium-remote-driver-4.18.1-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/sourceDocs/selenium-safari-driver-4.18.1-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/sourceDocs/selenium-support-4.18.1-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/libraries/selenium-java-4.32.0" />
+      <root url="file://$PROJECT_DIR$/libraries/selenium-server-4.32.0" />
     </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/libraries/selenium-server-4.32.0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libraries/selenium-java-4.32.0" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libraries/selenium-server-4.32.0" recursive="false" type="SOURCES" />
   </library>
 </component>

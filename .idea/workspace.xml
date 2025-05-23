@@ -4,18 +4,91 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 12">
-      <change afterPath="$PROJECT_DIR$/libraries/commons-codec-1.16.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_16_JS_Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_17_Authentication_Alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_05_2025_00_10_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_05_2025_00_10__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_05_2025_23_48_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_05_2025_23_48__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_12_9_19_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_12_9_19__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 13">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_32_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/auto-service-annotations-1.1.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/auto-service-annotations-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/byte-buddy-1.17.5-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/byte-buddy-1.17.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/commons-exec-1.4.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/commons-exec-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/error_prone_annotations-2.38.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/error_prone_annotations-2.38.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/failureaccess-1.0.3-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/failureaccess-1.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/guava-33.4.8-jre-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/guava-33.4.8-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/j2objc-annotations-3.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/j2objc-annotations-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/jspecify-1.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/jspecify-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-api-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-api-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-context-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-context-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-exporter-logging-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-exporter-logging-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-common-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-common-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-extension-autoconfigure-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-extension-autoconfigure-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-logs-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-logs-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-metrics-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-metrics-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-trace-1.49.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/opentelemetry-sdk-trace-1.49.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-api-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-api-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-chrome-driver-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-chrome-driver-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-chromium-driver-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-chromium-driver-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-devtools-v134-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-devtools-v134-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-devtools-v135-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-devtools-v135-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-devtools-v136-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-devtools-v136-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-edge-driver-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-edge-driver-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-firefox-driver-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-firefox-driver-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-http-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-http-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-ie-driver-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-ie-driver-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-java-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-java-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-json-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-json-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-manager-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-manager-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-os-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-os-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-remote-driver-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-remote-driver-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-safari-driver-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-safari-driver-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-support-4.32.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-java-4.32.0/selenium-support-4.32.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_18_User_Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2025_23_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2025_23_35__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.18.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.32.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-java-testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-java-testng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_17_Authentication_Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_17_Authentication_Alert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +189,8 @@
     "TestNG.Topic_16_JS_Alert.executor": "Run",
     "TestNG.Topic_17_Authentication_Alert.TC_01_Authenticator_Url.executor": "Run",
     "TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate.executor": "Run",
+    "TestNG.Topic_17_Authentication_Alert.TC_03_Authenticator_PDA.executor": "Run",
+    "TestNG.Topic_18_User_Action.TC_01_Holder.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -137,7 +212,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate">
+  <component name="RunManager" selected="TestNG.Topic_18_User_Action.TC_01_Holder">
     <configuration name="Topic_16_JS_Alert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -149,42 +224,6 @@
       <option name="PACKAGE_NAME" value="webdriver.part3" />
       <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_16_JS_Alert" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_16_JS_Alert.TC_02_Confirm_Alert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_16_JS_Alert" />
-      <option name="METHOD_NAME" value="TC_02_Confirm_Alert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_16_JS_Alert.TC_03_Confirm_Prompt" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_16_JS_Alert" />
-      <option name="METHOD_NAME" value="TC_03_Confirm_Prompt" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -227,13 +266,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_17_Authentication_Alert.TC_03_Authenticator_PDA" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_17_Authentication_Alert" />
+      <option name="METHOD_NAME" value="TC_03_Authenticator_PDA" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_18_User_Action.TC_01_Holder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_18_User_Action" />
+      <option name="METHOD_NAME" value="TC_01_Holder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_18_User_Action.TC_01_Holder" />
+        <item itemvalue="TestNG.Topic_17_Authentication_Alert.TC_03_Authenticator_PDA" />
         <item itemvalue="TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate" />
         <item itemvalue="TestNG.Topic_17_Authentication_Alert.TC_01_Authenticator_Url" />
         <item itemvalue="TestNG.Topic_16_JS_Alert" />
-        <item itemvalue="TestNG.Topic_16_JS_Alert.TC_03_Confirm_Prompt" />
-        <item itemvalue="TestNG.Topic_16_JS_Alert.TC_02_Confirm_Alert" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747331858995</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="edit part3-topic 13">
+      <option name="closed" value="true" />
+      <created>1747851346963</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1747851346963</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,6 +528,7 @@
     <MESSAGE value="edit part3-topic10" />
     <MESSAGE value="edit part3-topic 11" />
     <MESSAGE value="edit part3-topic 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 12" />
+    <MESSAGE value="edit part3-topic 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 13" />
   </component>
 </project>

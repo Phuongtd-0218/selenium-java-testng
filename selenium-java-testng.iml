@@ -10,5 +10,7 @@
     <orderEntry type="library" name="libraries" level="project" />
     <orderEntry type="library" name="selenium-java-testNG" level="project" />
     <orderEntry type="library" name="commons-codec-1.16.0" level="project" />
+    <orderEntry type="library" name="selenium-server-4.32.0" level="project" />
+    <orderEntry type="library" name="selenium-java-4.32" level="project" />
   </component>
 </module>
