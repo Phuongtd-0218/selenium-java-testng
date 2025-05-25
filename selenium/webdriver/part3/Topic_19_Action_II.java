@@ -1,9 +1,6 @@
 package webdriver.part3;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.devtools.v135.indexeddb.model.Key;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Action;
@@ -95,13 +92,47 @@ public class Topic_19_Action_II {
     }
 
     @Test
-    public void TC_03_Double_Click(){
+    public void TC_03_Double_Click() throws InterruptedException {
         driver.get("https://automationfc.github.io/basic-form/index.html");
         driver.manage().window().maximize();
 
-        action.doubleClick(driver.findElement(By.xpath("//button[text()='Double click me']"))).perform();
+        WebElement doubleClickButton = driver.findElement(By.xpath("//button[text()='Double click me']"));
+
+        //sroll đến button muốn click
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",doubleClickButton);
+        Thread.sleep(2000);
+
+        action.doubleClick(doubleClickButton).perform();
+        Thread.sleep(2000);
 
         Assert.assertEquals(driver.findElement(By.cssSelector("p#demo")).getText(),"Hello Automation Guys!");
+    }
+
+    @Test
+    public void TC_04_Right_Click() throws InterruptedException {
+        driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
+        driver.manage().window().maximize();
+
+        WebElement quitContext = driver.findElement(By.cssSelector("li.context-menu-icon-quit"));
+
+        action.contextClick(driver.findElement(By.cssSelector("span.context-menu-one"))).perform();
+        Thread.sleep(2000);
+
+        Assert.assertTrue(quitContext.isDisplayed());
+
+        action.moveToElement(quitContext).perform();
+        Thread.sleep(2000);
+
+        Assert.assertTrue(driver.findElement(By.cssSelector("li.context-menu-icon-quit.context-menu-visible.context-menu-hover")).isDisplayed());
+
+        action.click(quitContext).perform();
+        Thread.sleep(2000);
+
+        driver.switchTo().alert().accept();
+        Thread.sleep(2000);
+
+        Assert.assertFalse(quitContext.isDisplayed());
+
     }
 
     // 3- Clean: Delete data test/account/close browser/...

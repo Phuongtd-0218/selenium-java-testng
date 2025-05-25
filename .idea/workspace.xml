@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 14">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_19_Action_II.java" afterDir="false" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 15">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_20_Action_III.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_18_User_Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_18_User_Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_19_Action_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_19_Action_II.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +115,7 @@
     "TestNG.Topic_19_Action_II.TC_01_Click_And_Hold_Block.executor": "Run",
     "TestNG.Topic_19_Action_II.TC_02_Click_And_Hold_Block_Random.executor": "Run",
     "TestNG.Topic_19_Action_II.TC_03_Double_Click.executor": "Run",
+    "TestNG.Topic_19_Action_II.TC_04_Right_Click.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -136,25 +137,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_19_Action_II.TC_03_Double_Click">
-    <configuration name="Topic_18_User_Action.TC_02_Hover_Myntra" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_18_User_Action" />
-      <option name="METHOD_NAME" value="TC_02_Hover_Myntra" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_19_Action_II.TC_04_Right_Click">
     <configuration name="Topic_18_User_Action.TC_03_Hover_Fahasa" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -227,13 +210,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_19_Action_II.TC_04_Right_Click" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_19_Action_II" />
+      <option name="METHOD_NAME" value="TC_04_Right_Click" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_19_Action_II.TC_04_Right_Click" />
         <item itemvalue="TestNG.Topic_19_Action_II.TC_03_Double_Click" />
         <item itemvalue="TestNG.Topic_19_Action_II.TC_02_Click_And_Hold_Block_Random" />
         <item itemvalue="TestNG.Topic_19_Action_II.TC_01_Click_And_Hold_Block" />
         <item itemvalue="TestNG.Topic_18_User_Action.TC_03_Hover_Fahasa" />
-        <item itemvalue="TestNG.Topic_18_User_Action.TC_02_Hover_Myntra" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748016968744</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="edit part3-topic 15">
+      <option name="closed" value="true" />
+      <created>1748190395118</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1748190395118</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,6 +472,7 @@
     <MESSAGE value="edit part3-topic 12" />
     <MESSAGE value="edit part3-topic 13" />
     <MESSAGE value="edit part3-topic 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 14" />
+    <MESSAGE value="edit part3-topic 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 15" />
   </component>
 </project>
