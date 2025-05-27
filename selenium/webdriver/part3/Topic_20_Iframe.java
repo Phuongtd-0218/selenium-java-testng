@@ -6,7 +6,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_20_Action_III {
+public class Topic_20_Iframe {
 
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test
