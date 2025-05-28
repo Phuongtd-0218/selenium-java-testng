@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 15">
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 17">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_21_Fixed_Popup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_20_Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_20_Iframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_20_Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_20_Iframe_DOExPlease.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,80 +51,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Topic_01_Assertion.executor": "Run",
-    "Application.Topíc_05_Path.executor": "Run",
-    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
-    "JavaMethodFindUsagesOptions.isSearchForTextOccurrences": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor": "Run",
-    "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor": "Run",
-    "TestNG.Topic_05_Run_On_Browser.executor": "Run",
-    "TestNG.Topic_05_Run_On_Browser_3x.executor": "Run",
-    "TestNG.Topic_05_Run_On_Browser_4x.executor": "Run",
-    "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
-    "TestNG.Topic_08_WebBrowser_Exercise.TC_01_URL.executor": "Run",
-    "TestNG.Topic_08_WebBrowser_Exercise.TC_02_Title.executor": "Run",
-    "TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate.executor": "Run",
-    "TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_01_.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters.executor": "Run",
-    "TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword.executor": "Run",
-    "TestNG.Topic_10_Textbox_Textarea.TC_01_TechPanda.executor": "Run",
-    "TestNG.Topic_10_Textbox_Textarea.TC_02_.executor": "Run",
-    "TestNG.Topic_10_Textbox_Textarea.executor": "Run",
-    "TestNG.Topic_11_Default_Dropdown.TC_01_Facebook_SignUp.executor": "Run",
-    "TestNG.Topic_11_Default_Dropdown.TC_02_NopCpmmerce.executor": "Run",
-    "TestNG.Topic_11_Default_Dropdown.TC_03_Rode.executor": "Run",
-    "TestNG.Topic_11_Dropdown.TC_01_Facebook_SignUp.executor": "Run",
-    "TestNG.Topic_12_Custom_Dropdown.TC_01_.executor": "Run",
-    "TestNG.Topic_12_Custom_Dropdown.TC_01_Jquery.executor": "Run",
-    "TestNG.Topic_12_Custom_Dropdown.TC_02_React.executor": "Run",
-    "TestNG.Topic_12_Custom_Dropdown.TC_03_VueJS.executor": "Run",
-    "TestNG.Topic_13_Button.TC_01_Fahasa.executor": "Run",
-    "TestNG.Topic_14_Checkbox_Radio.TC_01_KendoUI_JQuery.executor": "Run",
-    "TestNG.Topic_14_Checkbox_Radio.TC_01_Telerik.executor": "Run",
-    "TestNG.Topic_14_Checkbox_Radio.TC_02_Multiple.executor": "Run",
-    "TestNG.Topic_14_Checkbox_Radio.executor": "Run",
-    "TestNG.Topic_15_Custom_Checkbox.TC_01_.executor": "Run",
-    "TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu.executor": "Run",
-    "TestNG.Topic_16_JS_Alert.TC_01_Accept_Alert.executor": "Run",
-    "TestNG.Topic_16_JS_Alert.TC_02_Confirm_Alert.executor": "Run",
-    "TestNG.Topic_16_JS_Alert.TC_03_Confirm_Prompt.executor": "Run",
-    "TestNG.Topic_16_JS_Alert.executor": "Run",
-    "TestNG.Topic_17_Authentication_Alert.TC_01_Authenticator_Url.executor": "Run",
-    "TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate.executor": "Run",
-    "TestNG.Topic_17_Authentication_Alert.TC_03_Authenticator_PDA.executor": "Run",
-    "TestNG.Topic_18_User_Action.TC_01_Holder.executor": "Run",
-    "TestNG.Topic_18_User_Action.TC_01_Hover.executor": "Run",
-    "TestNG.Topic_18_User_Action.TC_02_Hover_Myntra.executor": "Run",
-    "TestNG.Topic_18_User_Action.TC_03_Hover_Fahasa.executor": "Run",
-    "TestNG.Topic_19_Action_II.TC_01_Click_And_Hold_Block.executor": "Run",
-    "TestNG.Topic_19_Action_II.TC_02_Click_And_Hold_Block_Random.executor": "Run",
-    "TestNG.Topic_19_Action_II.TC_03_Double_Click.executor": "Run",
-    "TestNG.Topic_19_Action_II.TC_04_Right_Click.executor": "Run",
-    "TestNG.Topic_20_Iframe.TC_01_Ifram_Toidicodedao.executor": "Run",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Topic_01_Assertion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topíc_05_Path.executor&quot;: &quot;Run&quot;,
+    &quot;JavaMethodFindUsagesOptions.isOverridingMethods&quot;: &quot;true&quot;,
+    &quot;JavaMethodFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_03_Register_Incorrect_Confirm_Email.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_Run_On_Browser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_Run_On_Browser_3x.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_05_Run_On_Browser_4x.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_01_URL.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_02_Title.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_08_WebBrowser_Exercise.TC_03_Page_Source_Code.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_01_Displayed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_02_Enable.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_03_Selected.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise2.TC_04_MailChimp_Register_Validate.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_02_Login_Invalid_Email.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_03_Login_Password_Under_6Characters.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_09_WebBrowser_Exercise_II.TC_04_Login_Incorrect_EmailOrPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_10_Textbox_Textarea.TC_01_TechPanda.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_10_Textbox_Textarea.TC_02_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_10_Textbox_Textarea.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_11_Default_Dropdown.TC_01_Facebook_SignUp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_11_Default_Dropdown.TC_02_NopCpmmerce.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_11_Default_Dropdown.TC_03_Rode.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_11_Dropdown.TC_01_Facebook_SignUp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_12_Custom_Dropdown.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_12_Custom_Dropdown.TC_01_Jquery.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_12_Custom_Dropdown.TC_02_React.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_12_Custom_Dropdown.TC_03_VueJS.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_13_Button.TC_01_Fahasa.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_14_Checkbox_Radio.TC_01_KendoUI_JQuery.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_14_Checkbox_Radio.TC_01_Telerik.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_14_Checkbox_Radio.TC_02_Multiple.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_14_Checkbox_Radio.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_15_Custom_Checkbox.TC_01_.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_15_Custom_Checkbox.TC_01_Ubuntu.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_16_JS_Alert.TC_01_Accept_Alert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_16_JS_Alert.TC_02_Confirm_Alert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_16_JS_Alert.TC_03_Confirm_Prompt.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_16_JS_Alert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_17_Authentication_Alert.TC_01_Authenticator_Url.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_17_Authentication_Alert.TC_02_Authenticator_Navigate.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_17_Authentication_Alert.TC_03_Authenticator_PDA.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_18_User_Action.TC_01_Holder.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_18_User_Action.TC_01_Hover.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_18_User_Action.TC_02_Hover_Myntra.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_18_User_Action.TC_03_Hover_Fahasa.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_19_Action_II.TC_01_Click_And_Hold_Block.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_19_Action_II.TC_02_Click_And_Hold_Block_Random.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_19_Action_II.TC_03_Double_Click.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_19_Action_II.TC_04_Right_Click.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Topic_20_Iframe.TC_01_Ifram_Toidicodedao.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Selenium-Java-Testng\02-Selenium-webdriver-testng\selenium-java-testng\libraries" />
@@ -137,7 +138,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_20_Iframe.TC_01_Ifram_Toidicodedao">
+  <component name="RunManager">
     <configuration name="Topic_19_Action_II.TC_01_Click_And_Hold_Block" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -210,7 +211,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_20_Iframe.TC_01_Ifram_Toidicodedao" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_20_Iframe_DOExPlease.TC_01_Ifram_Toidicodedao" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -219,7 +220,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_20_Iframe" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_20_Iframe_DOExPlease" />
       <option name="METHOD_NAME" value="TC_01_Ifram_Toidicodedao" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -230,7 +231,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_20_Iframe.TC_01_Ifram_Toidicodedao" />
+        <item itemvalue="TestNG.Topic_20_Iframe_DOExPlease.TC_01_Ifram_Toidicodedao" />
         <item itemvalue="TestNG.Topic_19_Action_II.TC_04_Right_Click" />
         <item itemvalue="TestNG.Topic_19_Action_II.TC_03_Double_Click" />
         <item itemvalue="TestNG.Topic_19_Action_II.TC_02_Click_And_Hold_Block_Random" />
@@ -447,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748190395118</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="edit part3-topic 17">
+      <option name="closed" value="true" />
+      <created>1748365982009</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1748365982009</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,6 +482,7 @@
     <MESSAGE value="edit part3-topic 13" />
     <MESSAGE value="edit part3-topic 14" />
     <MESSAGE value="edit part3-topic 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 15" />
+    <MESSAGE value="edit part3-topic 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic 17" />
   </component>
 </project>

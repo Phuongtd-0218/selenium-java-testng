@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Topic_20_Iframe {
+public class Topic_20_Iframe_DOExPlease {
 
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test
