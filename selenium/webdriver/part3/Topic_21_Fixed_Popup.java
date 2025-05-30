@@ -1,10 +1,14 @@
 package webdriver.part3;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class Topic_21_Fixed_Popup {
 
@@ -19,8 +23,7 @@ public class Topic_21_Fixed_Popup {
     @BeforeClass
     public void initialBrowser(){
         driver = new FirefoxDriver();
-
-        driver.get("https://demo.nopcommerce.com");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..
@@ -37,9 +40,14 @@ public class Topic_21_Fixed_Popup {
     }
 
     @Test
-    public void TC_02_(){
+    public void TC_02_Facebook(){
+        driver.get("https://www.facebook.com/");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
+        driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
 
+        Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Create a new account']/parent::div/parent::div")).isDisplayed());
     }
 
     @Test
