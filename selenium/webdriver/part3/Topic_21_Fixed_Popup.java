@@ -42,12 +42,20 @@ public class Topic_21_Fixed_Popup {
     @Test
     public void TC_02_Facebook(){
         driver.get("https://www.facebook.com/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-
+        // findElemens
         driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
 
-        Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Create a new account']/parent::div/parent::div")).isDisplayed());
+        By creatNewAcc = By.xpath("//div[text()='Create a new account']/parent::div/parent::div");
+
+        //Confirm envisible
+        Assert.assertTrue(driver.findElement(creatNewAcc).isDisplayed());
+
+        //close register site
+        driver.navigate().back();
+
+        // Check popup isdisable yet?
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        Assert.assertEquals(driver.findElements(creatNewAcc).size(),0);
     }
 
     @Test

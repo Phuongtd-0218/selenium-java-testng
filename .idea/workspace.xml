@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic 18">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Random_Popup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_23_9_36_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_23_9_36__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_26_8_46_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_05_26_8_46__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_05_2025_22_50_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_05_2025_22_50__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_21_Fixed_Popup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_21_Fixed_Popup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Random_Popup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Random_Popup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +124,10 @@
     "TestNG.Topic_19_Action_II.TC_04_Right_Click.executor": "Run",
     "TestNG.Topic_20_Iframe.TC_01_Ifram_Toidicodedao.executor": "Run",
     "TestNG.Topic_21_Fixed_Popup.TC_02_Facebook.executor": "Run",
+    "TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks.executor": "Run",
+    "TestNG.Topic_22_Random_Popup.TC_01_Popup_Facebook.executor": "Run",
+    "TestNG.Topic_22_Random_Popup.TC_01_Popup_Tiki.executor": "Run",
+    "TestNG.Topic_22_Random_Popup.TC_02_dehieuVN.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -139,79 +149,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_21_Fixed_Popup.TC_02_Facebook">
-    <configuration name="Topic_19_Action_II.TC_02_Click_And_Hold_Block_Random" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_19_Action_II" />
-      <option name="METHOD_NAME" value="TC_02_Click_And_Hold_Block_Random" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_19_Action_II.TC_03_Double_Click" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_19_Action_II" />
-      <option name="METHOD_NAME" value="TC_03_Double_Click" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_19_Action_II.TC_04_Right_Click" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_19_Action_II" />
-      <option name="METHOD_NAME" value="TC_04_Right_Click" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_20_Iframe_DOExPlease.TC_01_Ifram_Toidicodedao" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_20_Iframe_DOExPlease" />
-      <option name="METHOD_NAME" value="TC_01_Ifram_Toidicodedao" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_22_Random_Popup.TC_02_dehieuVN">
     <configuration name="Topic_21_Fixed_Popup.TC_02_Facebook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -230,13 +168,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_22_Random_Popup.TC_01_Javacodegeeks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Random_Popup" />
+      <option name="METHOD_NAME" value="TC_01_Javacodegeeks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Random_Popup.TC_01_Popup_Facebook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Random_Popup" />
+      <option name="METHOD_NAME" value="TC_01_Popup_Facebook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Random_Popup.TC_01_Popup_Tiki" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Random_Popup" />
+      <option name="METHOD_NAME" value="TC_01_Popup_Tiki" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_22_Random_Popup.TC_02_dehieuVN" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Random_Popup" />
+      <option name="METHOD_NAME" value="TC_02_dehieuVN" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_02_dehieuVN" />
+        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks" />
+        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_Popup_Facebook" />
+        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_Popup_Tiki" />
         <item itemvalue="TestNG.Topic_21_Fixed_Popup.TC_02_Facebook" />
-        <item itemvalue="TestNG.Topic_20_Iframe_DOExPlease.TC_01_Ifram_Toidicodedao" />
-        <item itemvalue="TestNG.Topic_19_Action_II.TC_04_Right_Click" />
-        <item itemvalue="TestNG.Topic_19_Action_II.TC_03_Double_Click" />
-        <item itemvalue="TestNG.Topic_19_Action_II.TC_02_Click_And_Hold_Block_Random" />
       </list>
     </recent_temporary>
   </component>
