@@ -1,8 +1,10 @@
 package webdriver.part3;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -69,6 +71,84 @@ public class Topic_22_Handle_Window {
 
         switchToWindowByTitle("Selenium WebDriver");
         System.out.println("page Title: " + driver.getTitle());
+
+        CloseAllWindowWithoutParent(gihubWindowID);
+    }
+
+
+    @Test
+    public void TC_02_TechPanda() throws InterruptedException {
+        driver.get("https://live.techpanda.org/");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        //tìm tab moble
+        driver.findElement(By.xpath("//a[text()='Mobile']")).click();
+
+        // verify hiển thị
+        Assert.assertEquals(driver.findElement(By.cssSelector("div.page-title.category-title h1")).getText(),"MOBILE");
+
+        //Add Sony Xperia và Samsung Galaxy vào list compare
+        driver.findElement(By.xpath("//a[text()='Sony Xperia']/parent::h2/following-sibling::div[@class='actions']" +
+                "//a[text()='Add to Compare']")).click();
+        Assert.assertEquals(driver.findElement(By.cssSelector("ul.messages li.success-msg span")).getText(),"The product Sony Xperia has been added to comparison list.");
+
+        driver.findElement(By.xpath("//a[text()='Samsung Galaxy']/parent::h2/following-sibling::div[@class='actions']" +
+                "//a[text()='Add to Compare']")).click();
+        Assert.assertEquals(driver.findElement(By.cssSelector("ul.messages li.success-msg span")).getText(),"The product Samsung Galaxy has been added to comparison list.");
+
+
+        //Click vào phím compare
+        driver.findElement(By.cssSelector("div.block-content div.actions button")).click();
+
+        //Switch sang web mới bật ra
+
+        // Lấy ID trang hiện tại
+
+        String TechPandaID = driver.getWindowHandle();
+
+        // Lấy ra hết ID
+        switchToWindowByTitle("Products Comparison List - Magento Commerce");
+
+        //Verify by Window Title
+//        Assert.assertEquals(driver.getTitle(),"Products Comparison List - Magento Commerce");
+
+        //Close tab vừa hiện ra
+        driver.close();
+
+        //Quay về tab panda
+
+        switchToWindowByTitle("Mobile");
+
+        //Ấn clear All
+        driver.findElement(By.cssSelector("div.block-content div.actions a")).click();
+        Thread.sleep(5000);
+
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+
+
+    }
+
+    // 3- Clean: Delete data test/account/close browser/...
+    @AfterClass
+    public void cleanBrowser() {
+        driver.quit();
+    }
+
+    private void CloseAllWindowWithoutParent(String gihubWindowID) throws InterruptedException {
+        Set<String> allWindowIDs = driver.getWindowHandles();
+
+        for (String id : allWindowIDs){
+            if (!id.equals(gihubWindowID)){
+                driver.switchTo().window(id);
+                driver.close();
+                Thread.sleep(2000);
+            }
+
+        }
+        //switch vào tab window cuối cùng
+        driver.switchTo().window(gihubWindowID);
     }
 
     private void switchToWindowByTitle(String ExpectTitle) throws InterruptedException {
@@ -77,7 +157,7 @@ public class Topic_22_Handle_Window {
 
         for (String id : allWindowIDs)
         {
-            //switch vào
+            //switch vào trước
             driver.switchTo().window(id);
             Thread.sleep(2000);
 
@@ -102,18 +182,6 @@ public class Topic_22_Handle_Window {
                 driver.switchTo().window(id);
             }
         }
-    }
-
-    @Test
-    public void TC_02_() {
-
-
-    }
-
-    // 3- Clean: Delete data test/account/close browser/...
-    @AfterClass
-    public void cleanBrowser() {
-        driver.quit();
     }
 
 }
