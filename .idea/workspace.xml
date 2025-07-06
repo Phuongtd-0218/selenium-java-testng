@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic19">
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Handle_Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Handle_Window.java" afterDir="false" />
     </list>
@@ -119,6 +119,8 @@
     "TestNG.Topic_21_Fixed_Popup.TC_02_Facebook.executor": "Run",
     "TestNG.Topic_22_Handle_Window.TC_01_Github.executor": "Run",
     "TestNG.Topic_22_Handle_Window.TC_02_TechPanda.executor": "Run",
+    "TestNG.Topic_22_Handle_Window.TC_03_Cambridge.executor": "Run",
+    "TestNG.Topic_22_Handle_Window.TC_04_Selenium_4X.executor": "Run",
     "TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks.executor": "Run",
     "TestNG.Topic_22_Random_Popup.TC_01_Popup_Facebook.executor": "Run",
     "TestNG.Topic_22_Random_Popup.TC_01_Popup_Tiki.executor": "Run",
@@ -144,7 +146,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_22_Handle_Window.TC_02_TechPanda">
+  <component name="RunManager" selected="TestNG.Topic_22_Handle_Window.TC_04_Selenium_4X">
     <configuration name="Topic_22_Handle_Window.TC_01_Github" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -181,7 +183,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Random_Popup.TC_01_Javacodegeeks" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_22_Handle_Window.TC_03_Cambridge" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -190,8 +192,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Random_Popup" />
-      <option name="METHOD_NAME" value="TC_01_Javacodegeeks" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Handle_Window" />
+      <option name="METHOD_NAME" value="TC_03_Cambridge" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -199,7 +201,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Random_Popup.TC_01_Popup_Facebook" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_22_Handle_Window.TC_04_Selenium_4X" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +210,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Random_Popup" />
-      <option name="METHOD_NAME" value="TC_01_Popup_Facebook" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Handle_Window" />
+      <option name="METHOD_NAME" value="TC_04_Selenium_4X" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -237,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_22_Handle_Window.TC_04_Selenium_4X" />
+        <item itemvalue="TestNG.Topic_22_Handle_Window.TC_03_Cambridge" />
         <item itemvalue="TestNG.Topic_22_Handle_Window.TC_02_TechPanda" />
         <item itemvalue="TestNG.Topic_22_Handle_Window.TC_01_Github" />
         <item itemvalue="TestNG.Topic_22_Random_Popup.TC_02_dehieuVN" />
-        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_Javacodegeeks" />
-        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_01_Popup_Facebook" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750699233302</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="edit part3-topic20">
+      <option name="closed" value="true" />
+      <created>1751304478224</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1751304478224</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,6 +517,8 @@
     <MESSAGE value="edit part3-topic 17" />
     <MESSAGE value="edit part3-topic 18" />
     <MESSAGE value="edit part3-topic19" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic19" />
+    <MESSAGE value="edit part3-topic20" />
+    <MESSAGE value="edit part3-topic21" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic21" />
   </component>
 </project>

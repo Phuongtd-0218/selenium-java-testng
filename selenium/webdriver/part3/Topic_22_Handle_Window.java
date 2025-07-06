@@ -3,6 +3,7 @@ package webdriver.part3;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -68,7 +69,6 @@ public class Topic_22_Handle_Window {
         String facebookWindowID = driver.getWindowHandle();
 
 
-
         switchToWindowByTitle("Selenium WebDriver");
         System.out.println("page Title: " + driver.getTitle());
 
@@ -86,16 +86,16 @@ public class Topic_22_Handle_Window {
         driver.findElement(By.xpath("//a[text()='Mobile']")).click();
 
         // verify hiển thị
-        Assert.assertEquals(driver.findElement(By.cssSelector("div.page-title.category-title h1")).getText(),"MOBILE");
+        Assert.assertEquals(driver.findElement(By.cssSelector("div.page-title.category-title h1")).getText(), "MOBILE");
 
         //Add Sony Xperia và Samsung Galaxy vào list compare
         driver.findElement(By.xpath("//a[text()='Sony Xperia']/parent::h2/following-sibling::div[@class='actions']" +
                 "//a[text()='Add to Compare']")).click();
-        Assert.assertEquals(driver.findElement(By.cssSelector("ul.messages li.success-msg span")).getText(),"The product Sony Xperia has been added to comparison list.");
+        Assert.assertEquals(driver.findElement(By.cssSelector("ul.messages li.success-msg span")).getText(), "The product Sony Xperia has been added to comparison list.");
 
         driver.findElement(By.xpath("//a[text()='Samsung Galaxy']/parent::h2/following-sibling::div[@class='actions']" +
                 "//a[text()='Add to Compare']")).click();
-        Assert.assertEquals(driver.findElement(By.cssSelector("ul.messages li.success-msg span")).getText(),"The product Samsung Galaxy has been added to comparison list.");
+        Assert.assertEquals(driver.findElement(By.cssSelector("ul.messages li.success-msg span")).getText(), "The product Samsung Galaxy has been added to comparison list.");
 
 
         //Click vào phím compare
@@ -130,6 +130,88 @@ public class Topic_22_Handle_Window {
 
     }
 
+    @Test
+    public void TC_03_Cambridge() throws InterruptedException {
+        driver.get("https://dictionary.cambridge.org/vi/");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        String homePageTitle = driver.getWindowHandle();
+        System.out.println(homePageTitle);
+
+        // Click Đăng nhập
+        driver.findElement(By.xpath("//span[contains(@class,'cdo-login-button')]//span[text()='Đăng nhập']")).click();
+        Thread.sleep(2000);
+
+        //Switch to Tab đăng nhập
+
+        //Lấy ra ID của các tab
+        Set<String> allIDWindows = driver.getWindowHandles();
+
+        //Cho switch lần lượt vào các trang web được mở
+        for (String i : allIDWindows) {
+            driver.switchTo().window(i);
+            driver.manage().window().maximize();
+
+            //Lấy ra title của trang vừa switch tới
+            String iTitle = driver.getTitle();
+
+            //Nếu title là Login thì sẽ thoát vòng for
+            if (iTitle.equals("Login")) {
+                break;
+            }
+        }
+
+        // Click Login button
+
+        driver.findElement(By.cssSelector("input[value = 'Log in']")).click();
+
+        //Lấy ra error mess của email và password
+        Assert.assertEquals(driver.findElement(By.cssSelector("input[data-gigya-name= 'loginID'] " +
+                "~span.gigya-error-msg-active")).getText(), "This field is required");
+        Assert.assertEquals(driver.findElement(By.cssSelector("input[data-gigya-name= 'password'] " +
+                "~span.gigya-error-msg-active")).getText(), "This field is required");
+
+        //Đóng trang login
+        driver.close();
+        Thread.sleep(3000);
+
+        //switch về trang chính
+        try {
+            driver.switchTo().window(homePageTitle);
+            Thread.sleep(2000);
+        } catch (Exception exception) {
+            System.out.println("No switch to homepage" + exception);
+        }
+
+        //Nhập từ khóa vào ô tìm kiếm sau đó verify kết quả hiển thị
+        driver.findElement(By.cssSelector("input#searchword")).sendKeys("Code");
+        Thread.sleep(2000);
+        driver.findElement(By.cssSelector("button[type='submit'] i.i-search")).click();
+        Thread.sleep(1000);
+
+        Assert.assertEquals(driver.findElement(By.cssSelector("div#cald4-1 ~div span.headword span"))
+                .getText(), "code");
+    }
+
+    @Test
+    public void TC_04_Selenium_4X() throws InterruptedException {
+        driver.get("https://live.techpanda.org/");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        //open new tab in driver and switch to new tab, that is opened like End-User
+        driver.switchTo().newWindow(WindowType.TAB).get("https://live.techpanda.org/index.php/customer/account/login/");
+        driver.findElement(By.cssSelector("button[title='Login']")).click();
+        Thread.sleep(2000);
+
+        //back to homepage
+        switchToWindowByTitle("Home page");
+        driver.findElement(By.xpath("//a[text()='Mobile']")).click();
+        Thread.sleep(2000);
+        driver.navigate().back();
+        Thread.sleep(2000);
+    }
+
     // 3- Clean: Delete data test/account/close browser/...
     @AfterClass
     public void cleanBrowser() {
@@ -139,8 +221,8 @@ public class Topic_22_Handle_Window {
     private void CloseAllWindowWithoutParent(String gihubWindowID) throws InterruptedException {
         Set<String> allWindowIDs = driver.getWindowHandles();
 
-        for (String id : allWindowIDs){
-            if (!id.equals(gihubWindowID)){
+        for (String id : allWindowIDs) {
+            if (!id.equals(gihubWindowID)) {
                 driver.switchTo().window(id);
                 driver.close();
                 Thread.sleep(2000);
@@ -154,9 +236,7 @@ public class Topic_22_Handle_Window {
     private void switchToWindowByTitle(String ExpectTitle) throws InterruptedException {
         // Lấy hết toàn bộ ID của window/tab
         Set<String> allWindowIDs = driver.getWindowHandles();
-
-        for (String id : allWindowIDs)
-        {
+        for (String id : allWindowIDs) {
             //switch vào trước
             driver.switchTo().window(id);
             Thread.sleep(2000);
@@ -165,7 +245,7 @@ public class Topic_22_Handle_Window {
             String pageTitle = driver.getTitle();
 
             //Nếu trung với title mình cần sẽ break
-            if (pageTitle.equals(ExpectTitle)){
+            if (pageTitle.equals(ExpectTitle)) {
                 break;
             }
         }
@@ -177,7 +257,7 @@ public class Topic_22_Handle_Window {
         Set<String> allWindowIDs = driver.getWindowHandles();
         // Dùng vòng lặp để duyệt
         for (String id : allWindowIDs) {
-            if (!id.equals(WindowID)){
+            if (!id.equals(WindowID)) {
                 // Thỏa mãn điều kiện sẽ swith qua
                 driver.switchTo().window(id);
             }
