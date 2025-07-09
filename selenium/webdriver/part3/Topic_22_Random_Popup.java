@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 import java.sql.Driver;
 import java.time.Duration;
 
+import java.time.Duration;
+
 public class Topic_22_Random_Popup {
 
     //JUnit - dùng cho Unit Test
@@ -24,6 +26,8 @@ public class Topic_22_Random_Popup {
     @BeforeClass
     public void initialBrowser() {
         driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().window().maximize();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();

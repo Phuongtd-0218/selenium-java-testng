@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.Set;
 
-public class Topic_22_Handle_Window {
+public class Topic_23_Handle_Window {
 
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test

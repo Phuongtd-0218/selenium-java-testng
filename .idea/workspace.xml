@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic21">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_24_Shadow_DOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Javascript_Excutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Handle_Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Handle_Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Handle_Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_23_Handle_Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Random_Popup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Random_Popup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +36,12 @@
     &quot;assignee&quot;: &quot;Phuongtd-0218&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Phuongtd-0218/selenium-java-testng&quot;,
-    &quot;accountId&quot;: &quot;42743b23-a68f-48f5-a354-9543b8aeb215&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Phuongtd-0218/selenium-java-testng",
+    "accountId": "f476f8c2-340e-4454-b937-02f8d25d7e29"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -125,6 +128,8 @@
     "TestNG.Topic_22_Random_Popup.TC_01_Popup_Facebook.executor": "Run",
     "TestNG.Topic_22_Random_Popup.TC_01_Popup_Tiki.executor": "Run",
     "TestNG.Topic_22_Random_Popup.TC_02_dehieuVN.executor": "Run",
+    "TestNG.Topic_24_Shadow_DOM.TC_01_Shadow_DOM_Github_IO.executor": "Run",
+    "TestNG.Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -146,8 +151,8 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_22_Handle_Window.TC_04_Selenium_4X">
-    <configuration name="Topic_22_Handle_Window.TC_01_Github" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book">
+    <configuration name="Topic_23_Handle_Window.TC_02_TechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -156,25 +161,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Handle_Window" />
-      <option name="METHOD_NAME" value="TC_01_Github" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_22_Handle_Window.TC_02_TechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Handle_Window" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_23_Handle_Window" />
       <option name="METHOD_NAME" value="TC_02_TechPanda" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -183,7 +170,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Handle_Window.TC_03_Cambridge" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_23_Handle_Window.TC_03_Cambridge" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -192,7 +179,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Handle_Window" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_23_Handle_Window" />
       <option name="METHOD_NAME" value="TC_03_Cambridge" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -201,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Handle_Window.TC_04_Selenium_4X" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_23_Handle_Window.TC_04_Selenium_4X" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -210,7 +197,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Handle_Window" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_23_Handle_Window" />
       <option name="METHOD_NAME" value="TC_04_Selenium_4X" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -219,7 +206,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_22_Random_Popup.TC_02_dehieuVN" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_24_Shadow_DOM.TC_01_Shadow_DOM_Github_IO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -228,8 +215,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_22_Random_Popup" />
-      <option name="METHOD_NAME" value="TC_02_dehieuVN" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_24_Shadow_DOM" />
+      <option name="METHOD_NAME" value="TC_01_Shadow_DOM_Github_IO" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_24_Shadow_DOM" />
+      <option name="METHOD_NAME" value="TC_02_Shadow_DOM_Book" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -239,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_22_Handle_Window.TC_04_Selenium_4X" />
-        <item itemvalue="TestNG.Topic_22_Handle_Window.TC_03_Cambridge" />
-        <item itemvalue="TestNG.Topic_22_Handle_Window.TC_02_TechPanda" />
-        <item itemvalue="TestNG.Topic_22_Handle_Window.TC_01_Github" />
-        <item itemvalue="TestNG.Topic_22_Random_Popup.TC_02_dehieuVN" />
+        <item itemvalue="TestNG.Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book" />
+        <item itemvalue="TestNG.Topic_24_Shadow_DOM.TC_01_Shadow_DOM_Github_IO" />
+        <item itemvalue="TestNG.Topic_23_Handle_Window.TC_04_Selenium_4X" />
+        <item itemvalue="TestNG.Topic_23_Handle_Window.TC_03_Cambridge" />
+        <item itemvalue="TestNG.Topic_23_Handle_Window.TC_02_TechPanda" />
       </list>
     </recent_temporary>
   </component>
