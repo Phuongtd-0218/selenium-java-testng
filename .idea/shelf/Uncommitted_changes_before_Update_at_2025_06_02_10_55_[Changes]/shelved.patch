@@ -1,0 +1,24 @@
+Index: selenium/webdriver/part3/Topic_20_Iframe.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package webdriver.part3;\r\n\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.JavascriptExecutor;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.firefox.FirefoxDriver;\r\nimport org.testng.annotations.AfterClass;\r\nimport org.testng.annotations.BeforeClass;\r\nimport org.testng.annotations.Test;\r\n\r\nimport java.time.Duration;\r\n\r\npublic class Topic_20_Iframe {\r\n\r\n    //JUnit - dùng cho Unit Test\r\n    //TestNG - dùng cho UI test\r\n\r\n    // Thành phần/Cấu trúc trong 1 test case\r\n\r\n    // 1- Setup: Os/Browser/Web/Page/Data/Variable/Object/...\r\n    WebDriver driver;\r\n\r\n    @BeforeClass\r\n    public void initialBrowser(){\r\n        driver = new FirefoxDriver();\r\n\r\n    }\r\n\r\n    // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..\r\n    // Cần có chỉ dẫn - annotations để testcase hoạt động\r\n    @Test\r\n    public void TC_01_Ifram_Toidicodedao() throws InterruptedException {\r\n        driver.get(\"https://toidicodedao.com/\");\r\n        driver.manage().window().maximize();\r\n        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));\r\n\r\n        WebElement iframeElement = driver.findElement(By.cssSelector(\"div.fb_iframe_widget iframe\"));\r\n\r\n        ((JavascriptExecutor) driver).executeScript(\"arguments[0].scrollIntoView();\",iframeElement);\r\n        Thread.sleep(2000);\r\n        //switch to Iframe\r\n        driver.switchTo().frame(iframeElement);\r\n\r\n        String followerText = driver.findElement(By.xpath(\"//a[@title='Tôi đi code dạo']/parent::div/following-sibling::div[text()]\")).getText();\r\n\r\n        System.out.println(followerText);\r\n    }\r\n\r\n    @Test\r\n    public void TC_02_(){\r\n        driver.get(\"https://www.formsite.com/templates/education/campus-safety-survey/\");\r\n        driver.manage().window().maximize();\r\n        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));\r\n\r\n\r\n\r\n    }\r\n\r\n    @Test\r\n    public void TC_03_Frame(){\r\n        driver.get(\"https://netbanking.hdfcbank.com/netbanking/\");\r\n        driver.manage().window().maximize();\r\n        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));\r\n\r\n\r\n    }\r\n\r\n    // 3- Clean: Delete data test/account/close browser/...\r\n    @AfterClass\r\n    public void cleanBrowser(){\r\n        driver.quit();\r\n    }\r\n\r\n}
+===================================================================
+diff --git a/selenium/webdriver/part3/Topic_20_Iframe.java b/selenium/webdriver/part3/Topic_20_Iframe.java
+--- a/selenium/webdriver/part3/Topic_20_Iframe.java	(revision 0d3d0aacc641614d2c2c521de57719d4bc7170c8)
++++ b/selenium/webdriver/part3/Topic_20_Iframe.java	(date 1748400260581)
+@@ -5,6 +5,7 @@
+ import org.openqa.selenium.WebDriver;
+ import org.openqa.selenium.WebElement;
+ import org.openqa.selenium.firefox.FirefoxDriver;
++import org.testng.Assert;
+ import org.testng.annotations.AfterClass;
+ import org.testng.annotations.BeforeClass;
+ import org.testng.annotations.Test;
+@@ -54,6 +55,7 @@
+         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+ 
+ 
++       Assert.assertEquals(driver.getCurrentUrl(),"URL để so sánh");
+ 
+     }
+ 
