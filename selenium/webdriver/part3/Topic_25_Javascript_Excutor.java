@@ -1,10 +1,13 @@
 package webdriver.part3;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class Topic_25_Javascript_Excutor {
 
@@ -15,18 +18,25 @@ public class Topic_25_Javascript_Excutor {
 
     // 1- Setup: Os/Browser/Web/Page/Data/Variable/Object/...
     WebDriver driver;
+    JavascriptExecutor jsExecutor;
 
     @BeforeClass
     public void initialBrowser(){
         driver = new FirefoxDriver();
-
-        driver.get("https://demo.nopcommerce.com");
+        jsExecutor = (JavascriptExecutor) driver;
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..
     // Cần có chỉ dẫn - annotations để testcase hoạt động
     @Test
     public void TC_01_(){
+
+        driver.get("https://demo.nopcommerce.com/");
+
+        System.out.println(jsExecutor.executeScript("return document.domain"));
+
 
 
     }

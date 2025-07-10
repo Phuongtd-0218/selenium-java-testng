@@ -6,6 +6,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 public class Topic_00_Template {
 
     //JUnit - dùng cho Unit Test
@@ -19,8 +21,8 @@ public class Topic_00_Template {
     @BeforeClass
     public void initialBrowser(){
         driver = new FirefoxDriver();
-
-        driver.get("https://demo.nopcommerce.com");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     // 2- Action/Execute: Tương tác lên element nào/nhập liệu/verify..

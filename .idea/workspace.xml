@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic21">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_24_Shadow_DOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Javascript_Excutor.java" afterDir="false" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Handle_Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_23_Handle_Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Random_Popup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_22_Random_Popup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_00_Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Javascript_Excutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Javascript_Excutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +128,7 @@
     "TestNG.Topic_22_Random_Popup.TC_02_dehieuVN.executor": "Run",
     "TestNG.Topic_24_Shadow_DOM.TC_01_Shadow_DOM_Github_IO.executor": "Run",
     "TestNG.Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book.executor": "Run",
+    "TestNG.Topic_25_Javascript_Excutor.TC_01_.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -151,25 +150,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book">
-    <configuration name="Topic_23_Handle_Window.TC_02_TechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_23_Handle_Window" />
-      <option name="METHOD_NAME" value="TC_02_TechPanda" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_25_Javascript_Excutor.TC_01_">
     <configuration name="Topic_23_Handle_Window.TC_03_Cambridge" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -242,13 +223,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_25_Javascript_Excutor.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Javascript_Excutor" />
+      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_25_Javascript_Excutor.TC_01_" />
         <item itemvalue="TestNG.Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book" />
         <item itemvalue="TestNG.Topic_24_Shadow_DOM.TC_01_Shadow_DOM_Github_IO" />
         <item itemvalue="TestNG.Topic_23_Handle_Window.TC_04_Selenium_4X" />
         <item itemvalue="TestNG.Topic_23_Handle_Window.TC_03_Cambridge" />
-        <item itemvalue="TestNG.Topic_23_Handle_Window.TC_02_TechPanda" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +492,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751304478224</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="edit part3-topic23">
+      <option name="closed" value="true" />
+      <created>1752055681631</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1752055681631</updated>
+    </task>
+    <task id="LOCAL-00031" summary="edit part3-topic23">
+      <option name="closed" value="true" />
+      <created>1752055701063</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1752055701063</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,6 +539,7 @@
     <MESSAGE value="edit part3-topic19" />
     <MESSAGE value="edit part3-topic20" />
     <MESSAGE value="edit part3-topic21" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic21" />
+    <MESSAGE value="edit part3-topic23" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic23" />
   </component>
 </project>
