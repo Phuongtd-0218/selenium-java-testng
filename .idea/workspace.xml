@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic25">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_26_Wait_Element_Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Javascript_Excutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Javascript_Excutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +130,9 @@
     "TestNG.Topic_25_Javascript_Excutor.TC_01_.executor": "Run",
     "TestNG.Topic_25_Javascript_Excutor.TC_01_Techpanda_C1.executor": "Run",
     "TestNG.Topic_25_Javascript_Excutor.TC_03_Rode.executor": "Run",
+    "TestNG.Topic_26_Wait_Element_Status.TC_01_Visible.executor": "Run",
+    "TestNG.Topic_26_Wait_Element_Status.TC_02_Invisible.executor": "Run",
+    "TestNG.Topic_26_Wait_Element_Status.TC_03_Presence.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -151,79 +154,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_25_Javascript_Excutor.TC_03_Rode">
-    <configuration name="Topic_24_Shadow_DOM.TC_01_Shadow_DOM_Github_IO" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_24_Shadow_DOM" />
-      <option name="METHOD_NAME" value="TC_01_Shadow_DOM_Github_IO" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_24_Shadow_DOM" />
-      <option name="METHOD_NAME" value="TC_02_Shadow_DOM_Book" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_25_Javascript_Excutor.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Javascript_Excutor" />
-      <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_25_Javascript_Excutor.TC_01_Techpanda_C1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Javascript_Excutor" />
-      <option name="METHOD_NAME" value="TC_01_Techpanda_C1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness">
     <configuration name="Topic_25_Javascript_Excutor.TC_03_Rode" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -242,13 +173,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_26_Wait_Element_Status.TC_01_Visible" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
+      <option name="METHOD_NAME" value="TC_01_Visible" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_26_Wait_Element_Status.TC_02_Invisible" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
+      <option name="METHOD_NAME" value="TC_02_Invisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_26_Wait_Element_Status.TC_02_Staleness" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
+      <option name="METHOD_NAME" value="TC_02_Staleness" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_26_Wait_Element_Status.TC_03_Presence" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
+      <option name="METHOD_NAME" value="TC_03_Presence" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness" />
+        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_03_Presence" />
+        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_02_Invisible" />
+        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_01_Visible" />
         <item itemvalue="TestNG.Topic_25_Javascript_Excutor.TC_03_Rode" />
-        <item itemvalue="TestNG.Topic_25_Javascript_Excutor.TC_01_Techpanda_C1" />
-        <item itemvalue="TestNG.Topic_25_Javascript_Excutor.TC_01_" />
-        <item itemvalue="TestNG.Topic_24_Shadow_DOM.TC_02_Shadow_DOM_Book" />
-        <item itemvalue="TestNG.Topic_24_Shadow_DOM.TC_01_Shadow_DOM_Github_IO" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +528,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752208312502</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="edit part3-topic25">
+      <option name="closed" value="true" />
+      <created>1752478198328</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1752478198328</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
