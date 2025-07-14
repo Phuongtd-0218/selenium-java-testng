@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic25">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_26_Wait_Element_Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic26" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,6 +129,7 @@
     "TestNG.Topic_25_Javascript_Excutor.TC_03_Rode.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_01_Visible.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_02_Invisible.executor": "Run",
+    "TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_03_Presence.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
@@ -536,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752478198328</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="edit part3-topic26">
+      <option name="closed" value="true" />
+      <created>1752486892530</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1752486892530</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,6 +576,7 @@
     <MESSAGE value="edit part3-topic23" />
     <MESSAGE value="edit part3-topic24" />
     <MESSAGE value="edit part3-topic25" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic25" />
+    <MESSAGE value="edit part3-topic26" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic26" />
   </component>
 </project>
