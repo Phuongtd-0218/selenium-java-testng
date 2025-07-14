@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic26" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic26">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_26_Wait_FindElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +134,7 @@
     "TestNG.Topic_26_Wait_Element_Status.TC_02_Invisible.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_03_Presence.executor": "Run",
+    "TestNG.Topic_26_Wait_FindElement.TC_01_FindElement.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -152,25 +156,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness">
-    <configuration name="Topic_25_Javascript_Excutor.TC_03_Rode" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Javascript_Excutor" />
-      <option name="METHOD_NAME" value="TC_03_Rode" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_26_Wait_FindElement.TC_01_FindElement">
     <configuration name="Topic_26_Wait_Element_Status.TC_01_Visible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -243,13 +229,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_26_Wait_FindElement.TC_01_FindElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_FindElement" />
+      <option name="METHOD_NAME" value="TC_01_FindElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_26_Wait_FindElement.TC_01_FindElement" />
         <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness" />
         <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_03_Presence" />
         <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_02_Invisible" />
         <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_01_Visible" />
-        <item itemvalue="TestNG.Topic_25_Javascript_Excutor.TC_03_Rode" />
       </list>
     </recent_temporary>
   </component>
