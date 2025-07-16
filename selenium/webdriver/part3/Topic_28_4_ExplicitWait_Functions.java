@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Topic_28_4_ExplicitWait_Exer {
+public class Topic_28_4_ExplicitWait_Functions {
 
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test
