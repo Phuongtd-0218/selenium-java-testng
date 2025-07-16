@@ -2,14 +2,16 @@ package webdriver.part3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
-public class Topic_26_Wait_FindElement {
+public class Topic_27_Wait_FindElement {
 
     //JUnit - dùng cho Unit Test
     //TestNG - dùng cho UI test
@@ -56,9 +58,24 @@ public class Topic_26_Wait_FindElement {
     }
 
     @Test
-    public void TC_02_(){
+    public void TC_02_FindElements(){
+
+        driver.get("");
+        //Tạo ra 1 List ban đầu null để hứng các phần tử được tìm thấy
+        List<WebElement> findElementsList = null;
+
+        //1- Tìm thấy 1 phần tử
+        findElementsList = driver.findElements(By.cssSelector(""));
+        System.out.println(findElementsList.size()); // size = 1
 
 
+        //2- Tìm thấy trên 1 phần tử
+        findElementsList = driver.findElements(By.cssSelector(""));
+        System.out.println(findElementsList.size()); // size = i+1
+
+        //3- Không tìm thấy phần tử nào
+        findElementsList = driver.findElements(By.cssSelector(""));
+        System.out.println(findElementsList.size()); // size = 0
     }
 
     // 3- Clean: Delete data test/account/close browser/...
