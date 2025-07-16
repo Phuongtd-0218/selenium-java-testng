@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic26">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_26_Wait_FindElement.java" afterDir="false" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic28">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_15_15_35_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_15_15_35__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_1_Explicit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_2_ImplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_3_Static_Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_4_ExplicitWait_Exer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_26_Wait_FindElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_27_Wait_FindElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +141,13 @@
     "TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_03_Presence.executor": "Run",
     "TestNG.Topic_26_Wait_FindElement.TC_01_FindElement.executor": "Run",
+    "TestNG.Topic_27_ImplicitWait.TC_01_Dont_Set.executor": "Run",
+    "TestNG.Topic_27_ImplicitWait.TC_02_Less_Than.executor": "Run",
+    "TestNG.Topic_27_ImplicitWait.TC_04_Greater_Than.executor": "Run",
+    "TestNG.Topic_28_4_ExplicitWait_Exer.TC_02_Less_Than.executor": "Run",
+    "TestNG.Topic_28_4_ExplicitWait_Exer.TC_04_.executor": "Run",
+    "TestNG.Topic_28_4_ExplicitWait_Exer.executor": "Run",
+    "TestNG.Topic_28_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
     "project.structure.last.edited": "Libraries",
@@ -156,8 +169,8 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_26_Wait_FindElement.TC_01_FindElement">
-    <configuration name="Topic_26_Wait_Element_Status.TC_01_Visible" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_28_4_ExplicitWait_Exer.TC_04_">
+    <configuration name="Topic_28_2_ImplicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +179,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
-      <option name="METHOD_NAME" value="TC_01_Visible" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_2_ImplicitWait" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_28_2_ImplicitWait.TC_04_Greater_Than" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_2_ImplicitWait" />
+      <option name="METHOD_NAME" value="TC_04_Greater_Than" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,7 +205,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_26_Wait_Element_Status.TC_02_Invisible" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_28_4_ExplicitWait_Exer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -184,8 +214,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
-      <option name="METHOD_NAME" value="TC_02_Invisible" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_4_ExplicitWait_Exer" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_28_4_ExplicitWait_Exer.TC_02_Less_Than" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_4_ExplicitWait_Exer" />
+      <option name="METHOD_NAME" value="TC_02_Less_Than" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -193,7 +240,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_26_Wait_Element_Status.TC_02_Staleness" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_28_4_ExplicitWait_Exer.TC_04_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -202,44 +249,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
-      <option name="METHOD_NAME" value="TC_02_Staleness" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_26_Wait_Element_Status.TC_03_Presence" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_Element_Status" />
-      <option name="METHOD_NAME" value="TC_03_Presence" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_26_Wait_FindElement.TC_01_FindElement" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_26_Wait_FindElement" />
-      <option name="METHOD_NAME" value="TC_01_FindElement" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_4_ExplicitWait_Exer" />
+      <option name="METHOD_NAME" value="TC_04_" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -249,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_26_Wait_FindElement.TC_01_FindElement" />
-        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness" />
-        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_03_Presence" />
-        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_02_Invisible" />
-        <item itemvalue="TestNG.Topic_26_Wait_Element_Status.TC_01_Visible" />
+        <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Exer.TC_04_" />
+        <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Exer" />
+        <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Exer.TC_02_Less_Than" />
+        <item itemvalue="TestNG.Topic_28_2_ImplicitWait" />
+        <item itemvalue="TestNG.Topic_28_2_ImplicitWait.TC_04_Greater_Than" />
       </list>
     </recent_temporary>
   </component>
@@ -581,6 +592,7 @@
     <MESSAGE value="edit part3-topic24" />
     <MESSAGE value="edit part3-topic25" />
     <MESSAGE value="edit part3-topic26" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic26" />
+    <MESSAGE value="edit part3-topic28" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic28" />
   </component>
 </project>
