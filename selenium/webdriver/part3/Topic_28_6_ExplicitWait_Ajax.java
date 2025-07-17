@@ -36,7 +36,7 @@ public class Topic_28_6_ExplicitWait_Ajax {
     // Cần có chỉ dẫn - annotations để testcase hoạt động
 
     @Test
-    public void TC_01_Ajax() {
+    public void TC_01_Calendar() {
         driver.get("https://demos.telerik.com/aspnet-ajax/ajaxloadingpanel/functionality/explicit-show-hide/defaultcs.aspx");
 
         //Wait and Verify Calendar element is displayed
@@ -44,8 +44,21 @@ public class Topic_28_6_ExplicitWait_Ajax {
                 .visibilityOfElementLocated(By.cssSelector("div#ctl00_ContentPlaceholder1_Panel1"))).isDisplayed());
 
         //Wait and Verify Text
+        //C1:
         Assert.assertTrue(explicitWait.until(ExpectedConditions
                 .textToBe(By.cssSelector("div.RadAjaxPanel>span"),"No Selected Dates to display.")));
+
+        //Wait and click to element
+        explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/a[text()='22']"))).click();
+
+        //Wait ajax loading invisible
+        Assert.assertTrue(explicitWait.until(ExpectedConditions
+                .invisibilityOfElementLocated(By.cssSelector("div[id$='RadCalendar1']>div.raDiv"))));
+
+        //Wait and Verify Text
+        Assert.assertTrue(explicitWait.until(ExpectedConditions
+                .textToBe(By.cssSelector("div.RadAjaxPanel>span"),"Tuesday, July 22, 2025")));
+
     }
 
     @Test
@@ -64,9 +77,9 @@ public class Topic_28_6_ExplicitWait_Ajax {
     }
 
     // 3- Clean: Delete data test/account/close browser/...
-    @AfterClass
-    public void cleanBrowser() {
-        driver.quit();
-    }
+//    @AfterClass
+//    public void cleanBrowser() {
+//        driver.quit();
+//    }
 
 }

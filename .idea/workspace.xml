@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic28">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_5_ExplicitWait_Loading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_09_9_29_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_09_9_29__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_4_ExplicitWait_Exer.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_4_ExplicitWait_Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +144,7 @@
     "TestNG.Topic_28_4_ExplicitWait_Exer.TC_04_.executor": "Run",
     "TestNG.Topic_28_4_ExplicitWait_Exer.executor": "Run",
     "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax.executor": "Run",
+    "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar.executor": "Run",
     "TestNG.Topic_28_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
@@ -166,24 +167,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax">
-    <configuration name="Topic_28_2_ImplicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_2_ImplicitWait" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar">
     <configuration name="Topic_28_4_ExplicitWait_Functions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -255,13 +239,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_6_ExplicitWait_Ajax" />
+      <option name="METHOD_NAME" value="TC_01_Calendar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar" />
         <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax" />
         <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Functions.TC_04_" />
         <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Functions" />
         <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Functions.TC_02_Less_Than" />
-        <item itemvalue="TestNG.Topic_28_2_ImplicitWait" />
       </list>
     </recent_temporary>
   </component>
