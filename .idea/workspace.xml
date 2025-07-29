@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic28">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_09_9_29_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_09_9_29__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Upload_File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2025_22_43_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2025_22_43__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_07_2025_22_34_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_07_2025_22_34__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_15_15_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_15_15_35__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaSDET/Topíc_05_Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaSDET/Topíc_05_Path.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +40,12 @@
     &quot;assignee&quot;: &quot;Phuongtd-0218&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Phuongtd-0218/selenium-java-testng&quot;,
-    &quot;accountId&quot;: &quot;f476f8c2-340e-4454-b937-02f8d25d7e29&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Phuongtd-0218/selenium-java-testng",
+    "accountId": "42743b23-a68f-48f5-a354-9543b8aeb215"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -132,6 +137,8 @@
     "TestNG.Topic_25_Javascript_Excutor.TC_01_.executor": "Run",
     "TestNG.Topic_25_Javascript_Excutor.TC_01_Techpanda_C1.executor": "Run",
     "TestNG.Topic_25_Javascript_Excutor.TC_03_Rode.executor": "Run",
+    "TestNG.Topic_25_Upload_File.TC_01_Jquery_Upload_Single.executor": "Run",
+    "TestNG.Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_01_Visible.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_02_Invisible.executor": "Run",
     "TestNG.Topic_26_Wait_Element_Status.TC_02_Staleness.executor": "Run",
@@ -167,25 +174,21 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar">
-    <configuration name="Topic_28_4_ExplicitWait_Functions" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple">
+    <configuration name="Topíc_05_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaSDET.Topíc_05_Path" />
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="PATTERN" value="javaSDET.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_4_ExplicitWait_Functions" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_4_ExplicitWait_Functions.TC_02_Less_Than" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_25_Upload_File.TC_01_Jquery_Upload_Single" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -194,8 +197,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_4_ExplicitWait_Functions" />
-      <option name="METHOD_NAME" value="TC_02_Less_Than" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Upload_File" />
+      <option name="METHOD_NAME" value="TC_01_Jquery_Upload_Single" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -203,7 +206,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_4_ExplicitWait_Functions.TC_04_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -212,8 +215,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_4_ExplicitWait_Functions" />
-      <option name="METHOD_NAME" value="TC_04_" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Upload_File" />
+      <option name="METHOD_NAME" value="TC_02_Jquery_Upload_Multiple" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -259,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple" />
+        <item itemvalue="TestNG.Topic_25_Upload_File.TC_01_Jquery_Upload_Single" />
+        <item itemvalue="Application.Topíc_05_Path" />
         <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar" />
         <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax" />
-        <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Functions.TC_04_" />
-        <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Functions" />
-        <item itemvalue="TestNG.Topic_28_4_ExplicitWait_Functions.TC_02_Less_Than" />
       </list>
     </recent_temporary>
   </component>
@@ -572,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752662163287</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="edit part3-topic28">
+      <option name="closed" value="true" />
+      <created>1752771283551</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1752771283551</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
