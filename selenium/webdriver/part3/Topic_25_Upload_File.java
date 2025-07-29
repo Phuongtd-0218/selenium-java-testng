@@ -96,9 +96,9 @@ public class Topic_25_Upload_File {
     }
 
     // 3- Clean: Delete data test/account/close browser/...
-//    @AfterClass
-//    public void cleanBrowser() {
-//        driver.quit();
-//    }
+    @AfterClass
+    public void cleanBrowser() {
+        driver.quit();
+    }
 
 }
