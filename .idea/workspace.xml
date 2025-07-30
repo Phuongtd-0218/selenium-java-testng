@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic28">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_25_Upload_File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2025_22_43_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2025_22_43__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_07_2025_22_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_07_2025_22_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_15_15_35_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_15_15_35__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaSDET/Topíc_05_Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaSDET/Topíc_05_Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +33,15 @@
     &quot;assignee&quot;: &quot;Phuongtd-0218&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Phuongtd-0218/selenium-java-testng",
-    "accountId": "42743b23-a68f-48f5-a354-9543b8aeb215"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Phuongtd-0218/selenium-java-testng&quot;,
+    &quot;accountId&quot;: &quot;42743b23-a68f-48f5-a354-9543b8aeb215&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -152,6 +148,7 @@
     "TestNG.Topic_28_4_ExplicitWait_Exer.executor": "Run",
     "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax.executor": "Run",
     "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar.executor": "Run",
+    "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles.executor": "Run",
     "TestNG.Topic_28_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
@@ -174,7 +171,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple">
+  <component name="RunManager" selected="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles">
     <configuration name="Topíc_05_Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaSDET.Topíc_05_Path" />
       <module name="selenium-java-testng" />
@@ -224,24 +221,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_6_ExplicitWait_Ajax" />
-      <option name="METHOD_NAME" value="TC_01_Ajax" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -260,13 +239,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_6_ExplicitWait_Ajax" />
+      <option name="METHOD_NAME" value="TC_02_GoFiles" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" />
         <item itemvalue="TestNG.Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple" />
         <item itemvalue="TestNG.Topic_25_Upload_File.TC_01_Jquery_Upload_Single" />
         <item itemvalue="Application.Topíc_05_Path" />
         <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar" />
-        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +580,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752771283551</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="edit part3-topic28">
+      <option name="closed" value="true" />
+      <created>1753807273837</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1753807273837</updated>
+    </task>
+    <task id="LOCAL-00040" summary="edit part3-topic28">
+      <option name="closed" value="true" />
+      <created>1753807435314</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1753807435314</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -11,7 +11,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.time.Duration;
+import java.util.List;
 
 public class Topic_28_6_ExplicitWait_Ajax {
 
@@ -24,11 +26,21 @@ public class Topic_28_6_ExplicitWait_Ajax {
     WebDriver driver;
     WebDriverWait explicitWait;
 
+    String uploadFolderPath = System.getProperty("user.dir") + File.separator + "uploadFiles" + File.separator;
+
+    String haNoi = "ha noi.jpg";
+    String daNang = "da nang.jpg";
+    String haGiang = "ha giang.jpg";
+
+    String haNoiPath = uploadFolderPath + haNoi;
+    String daNangPath = uploadFolderPath + daNang;
+    String haGiangPath = uploadFolderPath + haGiang;
+
     @BeforeClass
     public void initialBrowser() {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
-        explicitWait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        explicitWait = new WebDriverWait(driver, Duration.ofSeconds(30));
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
@@ -46,7 +58,7 @@ public class Topic_28_6_ExplicitWait_Ajax {
         //Wait and Verify Text
         //C1:
         Assert.assertTrue(explicitWait.until(ExpectedConditions
-                .textToBe(By.cssSelector("div.RadAjaxPanel>span"),"No Selected Dates to display.")));
+                .textToBe(By.cssSelector("div.RadAjaxPanel>span"), "No Selected Dates to display.")));
 
         //Wait and click to element
         explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/a[text()='22']"))).click();
@@ -57,13 +69,51 @@ public class Topic_28_6_ExplicitWait_Ajax {
 
         //Wait and Verify Text
         Assert.assertTrue(explicitWait.until(ExpectedConditions
-                .textToBe(By.cssSelector("div.RadAjaxPanel>span"),"Tuesday, July 22, 2025")));
+                .textToBe(By.cssSelector("div.RadAjaxPanel>span"), "Tuesday, July 22, 2025")));
 
     }
 
     @Test
-    public void TC_02_Equal() {
+    public void TC_02_GoFiles() throws InterruptedException {
+        // Step 1: Open Url https://gofile.io/?t=uploadFiles
+        driver.get("https://gofile.io/?t=uploadFiles");
 
+
+        // Wait to loading invisible
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div#index_loader>div.animate-spin.h-16"))));
+
+        //Find Element upload File
+        By byElementUpload = By.xpath("//input[@type='file']");
+
+        //Upload File
+        driver.findElement(byElementUpload).sendKeys(haGiangPath + "\n"
+                + haNoiPath + "\n"
+                + daNangPath);
+        Thread.sleep(3000);
+
+        //Wait for loading invisible
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("span#destinationFolder>div.animate-spin"))));
+
+        //Wait for upload image loading invisible
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.flex.items-center > div.animate-spin"))));
+
+        //Verify Text
+
+        explicitWait.until(ExpectedConditions.textToBe(By.cssSelector("div.text-center >h2"), "Upload Complete"));
+
+        // Click link
+        explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.items-center.text-sm >a"))).click();
+
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div#filemanager_loading>div.animate-spin"))));
+
+        //Find element Play and DownLoad
+        // Element Play
+
+        List<WebElement> listElementPlay = driver.findElements(By.cssSelector("div.flex-row >button.item_play"));
+        Assert.assertEquals(explicitWait.until(ExpectedConditions.visibilityOfAllElements(listElementPlay)).size(),3);
+        // Element Download
+        List<WebElement> listElementDownload = driver.findElements(By.cssSelector("div.flex-row >button.item_download"));
+        Assert.assertEquals(explicitWait.until(ExpectedConditions.visibilityOfAllElements(listElementDownload)).size(),3);
     }
 
     @Test
