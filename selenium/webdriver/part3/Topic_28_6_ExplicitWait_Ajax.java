@@ -114,6 +114,7 @@ public class Topic_28_6_ExplicitWait_Ajax {
         // Element Download
         List<WebElement> listElementDownload = driver.findElements(By.cssSelector("div.flex-row >button.item_download"));
         Assert.assertEquals(explicitWait.until(ExpectedConditions.visibilityOfAllElements(listElementDownload)).size(),3);
+
     }
 
     @Test
