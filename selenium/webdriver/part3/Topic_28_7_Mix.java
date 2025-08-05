@@ -2,18 +2,18 @@ package webdriver.part3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.io.File;
-import java.sql.Driver;
+
 import java.time.Duration;
-import java.util.List;
+
 
 public class Topic_28_7_Mix {
 
@@ -47,7 +47,7 @@ public class Topic_28_7_Mix {
     }
 
     @Test
-    public void TC_02_Element_Not_Found_Only_Implicit() throws InterruptedException {
+    public void TC_02_Element_Not_Found_Only_Implicit(){
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         driver.get("https://live.techpanda.org/index.php/customer/account/login/");
@@ -77,10 +77,10 @@ public class Topic_28_7_Mix {
 
     }
 
-    // 3- Clean: Delete data test/account/close browser/...
-//    @AfterClass
-//    public void cleanBrowser() {
-//        driver.quit();
-//    }
+//     3- Clean: Delete data test/account/close browser/...
+    @AfterClass
+    public void cleanBrowser() {
+        driver.quit();
+    }
 
 }
