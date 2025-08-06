@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit  part3-topic30">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_7_Mix.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_7_Mix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,8 +150,10 @@
     "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Ajax.executor": "Run",
     "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_01_Calendar.executor": "Run",
     "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles.executor": "Run",
+    "TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_UploadFiles_Fix.executor": "Run",
     "TestNG.Topic_28_7_Mix.TC_01_Element_Found.executor": "Run",
     "TestNG.Topic_28_7_Mix.TC_02_Element_NotFound_Only_Implicit.executor": "Run",
+    "TestNG.Topic_28_7_Mix.TC_03_Element_Not_Found_Only_Explicit.executor": "Run",
     "TestNG.Topic_28_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
@@ -172,43 +176,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_28_7_Mix.TC_02_Element_NotFound_Only_Implicit">
-    <configuration name="Topic_25_Upload_File.TC_01_Jquery_Upload_Single" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Upload_File" />
-      <option name="METHOD_NAME" value="TC_01_Jquery_Upload_Single" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_25_Upload_File" />
-      <option name="METHOD_NAME" value="TC_02_Jquery_Upload_Multiple" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles">
     <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -220,6 +188,24 @@
       <option name="PACKAGE_NAME" value="webdriver.part3" />
       <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_6_ExplicitWait_Ajax" />
       <option name="METHOD_NAME" value="TC_02_GoFiles" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_02_UploadFiles_Fix" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_6_ExplicitWait_Ajax" />
+      <option name="METHOD_NAME" value="TC_02_UploadFiles_Fix" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -263,13 +249,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_28_7_Mix.TC_03_Element_Not_Found_Only_Explicit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver.part3" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_7_Mix" />
+      <option name="METHOD_NAME" value="TC_03_Element_Not_Found_Only_Explicit" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" />
+        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_UploadFiles_Fix" />
+        <item itemvalue="TestNG.Topic_28_7_Mix.TC_03_Element_Not_Found_Only_Explicit" />
         <item itemvalue="TestNG.Topic_28_7_Mix.TC_02_Element_NotFound_Only_Implicit" />
         <item itemvalue="TestNG.Topic_28_7_Mix.TC_01_Element_Found" />
-        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" />
-        <item itemvalue="TestNG.Topic_25_Upload_File.TC_02_Jquery_Upload_Multiple" />
-        <item itemvalue="TestNG.Topic_25_Upload_File.TC_01_Jquery_Upload_Single" />
       </list>
     </recent_temporary>
   </component>

@@ -12,7 +12,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
+import javax.xml.crypto.Data;
 import java.time.Duration;
+import java.util.Date;
 
 
 public class Topic_28_7_Mix {
@@ -63,13 +65,54 @@ public class Topic_28_7_Mix {
        }
 
     @Test
-    public void TC_03_Element_Not_Found_Only_Explicit() {
+    public void TC_03_Element_Not_Found_Only_Explicit_By() {
         explicitWait = new WebDriverWait(driver,Duration.ofSeconds(10));
 
         driver.get("https://live.techpanda.org/index.php/customer/account/login/");
 
-        explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input#automation")));
+        By emailTextboxBy = By.cssSelector("input#automation");
+        //Wait vs Implicit
+        explicitWait.until(ExpectedConditions.visibilityOfElementLocated(emailTextboxBy));
+    }
 
+    @Test
+    public void TC_04_Element_Not_Found_Only_Explicit_WebElement() {
+        explicitWait = new WebDriverWait(driver,Duration.ofSeconds(10));
+
+        driver.get("https://live.techpanda.org/index.php/customer/account/login/");
+
+
+        //Wait vs Implicit
+        System.out.println("start: " + getDateTimeNow());
+        try {
+            explicitWait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("input#automation"))));
+        } catch (Exception e) {
+            System.out.println("end: " + getDateTimeNow());
+            throw new RuntimeException(e);
+        }
+    }
+    @Test
+    public void TC_05_Element_Not_Found_Mix_Implicit_Explicit() {
+
+        //Để thời gian của implicilyWait tìm element nhỏ hơn thời gian timeouts
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+        explicitWait = new WebDriverWait(driver,Duration.ofSeconds(10));
+
+        driver.get("https://live.techpanda.org/index.php/customer/account/login/");
+
+        System.out.println("start: " + getDateTimeNow());
+        //Wait vs explicitWait
+        try {
+            explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input#automation")));
+        } catch (Exception e) {
+            System.out.println("end: " + getDateTimeNow());
+            throw new RuntimeException(e);
+        }
+    }
+
+    public String getDateTimeNow(){
+        Date date = new Date();
+        return date.toString();
     }
 
     @Test

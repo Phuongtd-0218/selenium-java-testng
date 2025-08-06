@@ -97,9 +97,9 @@ public class Topic_28_6_ExplicitWait_Ajax {
         //Wait for upload image loading invisible
         Assert.assertTrue(explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.flex.items-center > div.animate-spin"))));
 
-        //Verify Text
-
-        explicitWait.until(ExpectedConditions.textToBe(By.cssSelector("div.text-center >h2"), "Upload Complete"));
+        //Wait đến khi hiển thị text "Upload Complete"
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.
+                visibilityOfElementLocated(By.xpath("//div[@class='text-center']/h2[text()='Upload Complete']"))).isDisplayed());
 
         // Click link
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.items-center.text-sm >a"))).click();
@@ -110,16 +110,52 @@ public class Topic_28_6_ExplicitWait_Ajax {
         // Element Play
 
         List<WebElement> listElementPlay = driver.findElements(By.cssSelector("div.flex-row >button.item_play"));
-        Assert.assertEquals(explicitWait.until(ExpectedConditions.visibilityOfAllElements(listElementPlay)).size(),3);
+        Assert.assertEquals(explicitWait.until(ExpectedConditions.visibilityOfAllElements(listElementPlay)).size(), 3);
         // Element Download
         List<WebElement> listElementDownload = driver.findElements(By.cssSelector("div.flex-row >button.item_download"));
-        Assert.assertEquals(explicitWait.until(ExpectedConditions.visibilityOfAllElements(listElementDownload)).size(),3);
+        Assert.assertEquals(explicitWait.until(ExpectedConditions.visibilityOfAllElements(listElementDownload)).size(), 3);
 
+        System.out.println(listElementPlay + "\n" + listElementDownload);
     }
 
     @Test
-    public void TC_03_Greater_Than() {
+    public void TC_02_UploadFiles_Fix() throws InterruptedException {
+        driver.get("https://gofile.io/?t=uploadFiles");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
+        //Wait cho loading ở màn hình upload không còn hiển thị
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.
+                invisibilityOfElementLocated(By.cssSelector("div.animate-spin"))));
+
+        //Wait cho Upload Files button được Click
+//        explicitWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a#home_uploadFile "))).click();
+
+
+        //Find Element upload File
+        By byElementUpload = By.xpath("//input[@type='file']");
+
+        //Upload File nhiều file  trong 1 lần
+        driver.findElement(byElementUpload).sendKeys(haGiangPath + "\n"
+                + haNoiPath + "\n"
+                + daNangPath);
+
+        //Wait cho loading icon ở màn upload không còn hiển thị
+//        Assert.assertTrue(explicitWait.until(ExpectedConditions.
+//                invisibilityOfElementLocated(By.cssSelector("div#index_upload div.animate-spin"))));
+
+        //Wait cho các progressbar của các file biến mất
+        explicitWait.until(ExpectedConditions.invisibilityOfAllElements(driver.findElements(By.cssSelector("div.file-progressbar"))));
+
+        //Wait đến khi hiển thị text "Upload Complete"
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.
+                visibilityOfElementLocated(By.xpath("//div[@class='text-center']/h2[text()='Upload Complete']"))).isDisplayed());
+
+        //Wait and Click vào link
+        explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div#index_upload div.grid a"))).click();
+
+        //Wait cho loading icon ở màn upload không còn hiển thị
+        Assert.assertTrue(explicitWait.until(ExpectedConditions.
+                invisibilityOfElementLocated(By.cssSelector("main#index_main div.animate-spin"))));
     }
 
     @Test
