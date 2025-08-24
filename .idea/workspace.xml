@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit  part3-topic30">
+      <change afterPath="$PROJECT_DIR$/RunTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/payment/Payment_01_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/product/Product_01_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_01_Annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_03_Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_31_8_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_31_8_56__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_08_06_13_12_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_08_06_13_12__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_7_Mix.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_7_Mix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_01_Assertion.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +71,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/RunTest.xml.executor": "Run",
+    "TestNG.Topic_01_Annotation.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor": "Run",
@@ -176,7 +186,34 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles">
+  <component name="RunManager" selected="TestNG.D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/RunTest.xml">
+    <configuration name="D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/RunTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_01_Annotation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_01_Annotation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -213,42 +250,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_7_Mix.TC_01_Element_Found" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_7_Mix" />
-      <option name="METHOD_NAME" value="TC_01_Element_Found" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_28_7_Mix.TC_02_Element_NotFound_Only_Implicit" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_7_Mix" />
-      <option name="METHOD_NAME" value="TC_02_Element_NotFound_Only_Implicit" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic_28_7_Mix.TC_03_Element_Not_Found_Only_Explicit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -269,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/RunTest.xml" />
+        <item itemvalue="TestNG.Topic_01_Annotation" />
         <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" />
         <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_UploadFiles_Fix" />
         <item itemvalue="TestNG.Topic_28_7_Mix.TC_03_Element_Not_Found_Only_Explicit" />
-        <item itemvalue="TestNG.Topic_28_7_Mix.TC_02_Element_NotFound_Only_Implicit" />
-        <item itemvalue="TestNG.Topic_28_7_Mix.TC_01_Element_Found" />
       </list>
     </recent_temporary>
   </component>
