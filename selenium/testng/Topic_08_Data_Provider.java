@@ -108,5 +108,6 @@ public class Topic_08_Data_Provider {
     @AfterClass(alwaysRun = true)
     public void afterClass() {
         driver.quit();
+
     }
 }
