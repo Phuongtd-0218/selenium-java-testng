@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic31">
-      <change afterPath="$PROJECT_DIR$/Runtest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/payment/Payment_01_CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/product/Product_01_CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_01_Annotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_02_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_03_Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_04_Alway_Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_05_Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_06_skip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_07_Description.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_08_Data_Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_09_Multiple_Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_31_8_56_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_31_8_56__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_08_06_13_12_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_08_06_13_12__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_01_Assertion.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part4-topic03.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,14 +288,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745421246805</updated>
-    </task>
-    <task id="LOCAL-00001" summary="edit">
-      <option name="closed" value="true" />
-      <created>1745426247488</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1745426247488</updated>
     </task>
     <task id="LOCAL-00002" summary="edit">
       <option name="closed" value="true" />
@@ -692,7 +665,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754473668830</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="edit part4-topic03.1">
+      <option name="closed" value="true" />
+      <created>1762427487605</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1762427487606</updated>
+    </task>
+    <task id="LOCAL-00050" summary="edit part4-topic03.1">
+      <option name="closed" value="true" />
+      <created>1762427532862</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1762427532862</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -707,7 +696,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit" />
     <MESSAGE value="edit textarea" />
     <MESSAGE value="edit part3-topic07" />
     <MESSAGE value="edit part3-topic08" />
@@ -732,6 +720,7 @@
     <MESSAGE value="edit part3-topic30" />
     <MESSAGE value="edit  part3-topic30" />
     <MESSAGE value="edit part3-topic31" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic31" />
+    <MESSAGE value="edit part4-topic03.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part4-topic03.1" />
   </component>
 </project>
