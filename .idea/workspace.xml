@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit  part3-topic30">
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part3-topic31">
+      <change afterPath="$PROJECT_DIR$/Runtest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/payment/Payment_01_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/product/Product_01_CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_01_Annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_02_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_03_Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_04_Alway_Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_05_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_06_skip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_07_Description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_08_Data_Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_09_Multiple_Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_31_8_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_07_31_8_56__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_08_06_13_12_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025_08_06_13_12__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_6_ExplicitWait_Ajax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_7_Mix.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/part3/Topic_28_7_Mix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_01_Assertion.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +55,11 @@
     &quot;accountId&quot;: &quot;42743b23-a68f-48f5-a354-9543b8aeb215&quot;
   }
 }</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Topic_07_Description" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -63,6 +83,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/Runtest.xml.executor": "Run",
+    "TestNG.Topic_01_Annotation.TC_01.executor": "Run",
+    "TestNG.Topic_01_Annotation.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS.TC_01_.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_01_Register_Emplty_Data.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_02_Register_Invalid_Email.executor": "Run",
@@ -70,10 +93,20 @@
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_04_Register_Invalid_Password.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.TC_06_Register_Invalid_PhoneNumber.executor": "Run",
     "TestNG.Topic_03_Selenium_XPath_CSS_Exercise.executor": "Run",
+    "TestNG.Topic_04_Alway_Run.executor": "Run",
+    "TestNG.Topic_05_Priority.executor": "Run",
     "TestNG.Topic_05_Run_On_Browser.executor": "Run",
     "TestNG.Topic_05_Run_On_Browser_3x.executor": "Run",
     "TestNG.Topic_05_Run_On_Browser_4x.executor": "Run",
     "TestNG.Topic_06_WebBrowser_Commands.TC_01_.executor": "Run",
+    "TestNG.Topic_06_skip.executor": "Run",
+    "TestNG.Topic_07_Description.executor": "Run",
+    "TestNG.Topic_07_Description.shoudldBeRegisterFailWithInvalidEmail.executor": "Run",
+    "TestNG.Topic_08_Data_Provider (1).executor": "Run",
+    "TestNG.Topic_08_Data_Provider (2).executor": "Run",
+    "TestNG.Topic_08_Data_Provider (3).executor": "Run",
+    "TestNG.Topic_08_Data_Provider.TC_02_OrangeHRM.executor": "Run",
+    "TestNG.Topic_08_Data_Provider.executor": "Run",
     "TestNG.Topic_08_WebBrowser_Exercise.TC_01_URL.executor": "Run",
     "TestNG.Topic_08_WebBrowser_Exercise.TC_02_Title.executor": "Run",
     "TestNG.Topic_08_WebBrowser_Exercise.TC_03_Navigate.executor": "Run",
@@ -157,7 +190,7 @@
     "TestNG.Topic_28_ImplicitWait.executor": "Run",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Selenium-Java-Testng/02-Selenium-webdriver-testng/selenium-java-testng/libraries",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -171,96 +204,85 @@
       <recent name="C:\Users\phuongtd\Desktop\Automation\Automation testing\02- Selenium WebDriver\selenium-java-testng\libraries" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testng" />
       <recent name="webdriver.part3" />
       <recent name="webdriver.part2" />
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles">
-    <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_08_Data_Provider (3)">
+    <configuration name="C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/Runtest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_6_ExplicitWait_Ajax" />
-      <option name="METHOD_NAME" value="TC_02_GoFiles" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Runtest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_6_ExplicitWait_Ajax.TC_02_UploadFiles_Fix" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_08_Data_Provider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_6_ExplicitWait_Ajax" />
-      <option name="METHOD_NAME" value="TC_02_UploadFiles_Fix" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_08_Data_Provider" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_7_Mix.TC_01_Element_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_08_Data_Provider (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_7_Mix" />
-      <option name="METHOD_NAME" value="TC_01_Element_Found" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_08_Data_Provider" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_7_Mix.TC_02_Element_NotFound_Only_Implicit" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_08_Data_Provider (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_7_Mix" />
-      <option name="METHOD_NAME" value="TC_02_Element_NotFound_Only_Implicit" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_08_Data_Provider" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_28_7_Mix.TC_03_Element_Not_Found_Only_Explicit" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_08_Data_Provider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.part3.*" />
+          <option name="PATTERN" value="testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver.part3" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.part3.Topic_28_7_Mix" />
-      <option name="METHOD_NAME" value="TC_03_Element_Not_Found_Only_Explicit" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_08_Data_Provider" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -269,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_GoFiles" />
-        <item itemvalue="TestNG.Topic_28_6_ExplicitWait_Ajax.TC_02_UploadFiles_Fix" />
-        <item itemvalue="TestNG.Topic_28_7_Mix.TC_03_Element_Not_Found_Only_Explicit" />
-        <item itemvalue="TestNG.Topic_28_7_Mix.TC_02_Element_NotFound_Only_Implicit" />
-        <item itemvalue="TestNG.Topic_28_7_Mix.TC_01_Element_Found" />
+        <item itemvalue="TestNG.Topic_08_Data_Provider (3)" />
+        <item itemvalue="TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/Runtest.xml" />
+        <item itemvalue="TestNG.Topic_08_Data_Provider" />
+        <item itemvalue="TestNG.Topic_08_Data_Provider (1)" />
+        <item itemvalue="TestNG.Topic_08_Data_Provider (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -662,7 +684,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754414449792</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="edit part3-topic31">
+      <option name="closed" value="true" />
+      <created>1754473668830</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1754473668830</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -701,6 +731,7 @@
     <MESSAGE value="edit part3-topic29" />
     <MESSAGE value="edit part3-topic30" />
     <MESSAGE value="edit  part3-topic30" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit  part3-topic30" />
+    <MESSAGE value="edit part3-topic31" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit part3-topic31" />
   </component>
 </project>
