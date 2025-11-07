@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part4-topic03.1" />
+    <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part4-topic03.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RunTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_09_Multiple_Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_09_Multiple_Browser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +68,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/RunTest.xml.executor": "Run",
     "TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/Runtest.xml.executor": "Run",
     "TestNG.Topic_01_Annotation.TC_01.executor": "Run",
     "TestNG.Topic_01_Annotation.executor": "Run",
@@ -191,7 +196,17 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_08_Data_Provider (3)">
+  <component name="RunManager" selected="TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/RunTest.xml">
+    <configuration name="C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/RunTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/RunTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/Runtest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Runtest.xml" />
@@ -203,23 +218,6 @@
       </method>
     </configuration>
     <configuration name="Topic_08_Data_Provider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.Topic_08_Data_Provider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_Data_Provider (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -272,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/RunTest.xml" />
         <item itemvalue="TestNG.Topic_08_Data_Provider (3)" />
         <item itemvalue="TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/Runtest.xml" />
         <item itemvalue="TestNG.Topic_08_Data_Provider" />
         <item itemvalue="TestNG.Topic_08_Data_Provider (1)" />
-        <item itemvalue="TestNG.Topic_08_Data_Provider (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -288,22 +286,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745421246805</updated>
-    </task>
-    <task id="LOCAL-00002" summary="edit">
-      <option name="closed" value="true" />
-      <created>1745426441705</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1745426441705</updated>
-    </task>
-    <task id="LOCAL-00003" summary="edit">
-      <option name="closed" value="true" />
-      <created>1745426446037</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1745426446037</updated>
     </task>
     <task id="LOCAL-00004" summary="edit">
       <option name="closed" value="true" />
@@ -681,7 +663,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762427532862</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="edit part4-topic03.1">
+      <option name="closed" value="true" />
+      <created>1762427688151</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1762427688151</updated>
+    </task>
+    <task id="LOCAL-00052" summary="edit part4-topic03.1">
+      <option name="closed" value="true" />
+      <created>1762427803072</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1762427803072</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

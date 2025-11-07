@@ -20,22 +20,40 @@ public class Topic_09_Multiple_Browser {
     String lastName = "Duy";
     String emailAddress = "Phuong" + new Random().nextInt() + "@gmail.com";
     String password = "Testing111###";
+    String domainUrl = "https://opensource-demo";
 
 
     @BeforeClass
-    @Parameters("browser") //Suite không dùng với parameters
-    public void beforeClass(String browserName) {
-    if (browserName.equalsIgnoreCase("Chorme")){
-        driver = new ChromeDriver();
+    @Parameters({"browser", "server"}) //Suite không dùng với parameters
+    public void beforeClass(String browserName, String serverName) {
+    if (serverName.equalsIgnoreCase("Dev")){
+        domainUrl = "https://dev";
     }
-    else if (browserName.equalsIgnoreCase("Edge")){
-        driver = new EdgeDriver();
+    else if (serverName.equalsIgnoreCase("Testing")){
+        domainUrl = "https://testing";
     }
-    else if (browserName.equalsIgnoreCase("Firefox")){
-        driver = new FirefoxDriver();
+    else if (serverName.equalsIgnoreCase("Staging")){
+        domainUrl = "https://staging";
+    }
+    else if (serverName.equalsIgnoreCase("Production")){
+        domainUrl = "https://opensource-demo";
     }
     else {
         throw new RuntimeException("Browser name is no invalid");
+    }
+
+    switch (browserName){
+        case "Chorme":
+            driver = new ChromeDriver();
+            break;
+        case "Edge":
+            driver = new EdgeDriver();
+            break;
+        case "Firefox":
+            driver = new FirefoxDriver();
+            break;
+        default:
+            new RuntimeException("Browser name is no invalid");
     }
 
         // Khởi tạo browser
@@ -47,7 +65,7 @@ public class Topic_09_Multiple_Browser {
     // Call dataProvider by call name of DataProvider
     @Test()
     public void TC_01_OrangeHRM_Multiple_Browser() throws InterruptedException {
-        driver.get("https://opensource-demo.orangehrmlive.com/");
+        driver.get(domainUrl+".orangehrmlive.com/");
 
         // Login
         driver.findElement(By.cssSelector("input[name='username']")).sendKeys("Admin");
