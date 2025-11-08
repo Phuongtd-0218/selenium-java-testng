@@ -13,7 +13,7 @@ import org.testng.annotations.*;
 import java.time.Duration;
 import java.util.Random;
 
-public class Topic_09_Multiple_Browser {
+public class Topic_10_Loop {
     WebDriver driver;
     String employeeID;
     String firstName = "Phuong";
@@ -63,7 +63,7 @@ public class Topic_09_Multiple_Browser {
 
 
     // Call dataProvider by call name of DataProvider
-    @Test()
+    @Test(invocationCount = 2)
     public void TC_01_OrangeHRM_Multiple_Browser() throws InterruptedException {
         driver.get(domainUrl+".orangehrmlive.com/");
 
