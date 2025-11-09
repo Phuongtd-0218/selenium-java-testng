@@ -18,7 +18,7 @@ public class Topic_10_Loop {
     String employeeID;
     String firstName = "Phuong";
     String lastName = "Duy";
-    String emailAddress = "Phuong" + new Random().nextInt() + "@gmail.com";
+
     String password = "Testing111###";
     String domainUrl = "https://opensource-demo";
 
@@ -65,7 +65,9 @@ public class Topic_10_Loop {
     // Call dataProvider by call name of DataProvider
     @Test(invocationCount = 2)
     public void TC_01_OrangeHRM_Multiple_Browser() throws InterruptedException {
+
         driver.get(domainUrl+".orangehrmlive.com/");
+        String emailAddress = "Phuong" + new Random().nextInt() + "@gmail.com";
 
         // Login
         driver.findElement(By.cssSelector("input[name='username']")).sendKeys("Admin");

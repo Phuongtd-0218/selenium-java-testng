@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe9d3f5-1d07-4551-8300-0fc9929acda4" name="Changes" comment="edit part4-topic03.1">
-      <change afterPath="$PROJECT_DIR$/selenium/testng/Topic_10_Loop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RunTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RunTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_09_Multiple_Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_09_Multiple_Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testng/Topic_10_Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testng/Topic_10_Loop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,23 +211,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_08_Data_Provider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng" />
-      <option name="MAIN_CLASS_NAME" value="testng.Topic_08_Data_Provider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic_08_Data_Provider (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -264,13 +245,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_10_Loop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng" />
+      <option name="MAIN_CLASS_NAME" value="testng.Topic_10_Loop" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/Runtest.xml" />
+        <item itemvalue="TestNG.Topic_10_Loop" />
         <item itemvalue="TestNG.C:/Users/phuongtd/Desktop/Automation/Automation testing/02- Selenium WebDriver/selenium-java-testng/RunTest.xml" />
         <item itemvalue="TestNG.Topic_08_Data_Provider (3)" />
         <item itemvalue="TestNG.Topic_08_Data_Provider" />
-        <item itemvalue="TestNG.Topic_08_Data_Provider (1)" />
       </list>
     </recent_temporary>
   </component>
