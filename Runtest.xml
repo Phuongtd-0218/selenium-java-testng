@@ -5,6 +5,9 @@
 <!--    parallel - chạy nhiều máy cùng 1 lúc, không nên chạy tên 1 máy, nên chạy với Selenium GRID, test cloud-->
     <parameter name="server" value="Production"></parameter>
 
+    <listeners>
+        <listener class-name="listener.ScreenShotListener"></listener>
+    </listeners>
     <test name="Run on Chorme">
         <parameter name="browser" value="Chorme"></parameter>
         <classes>
